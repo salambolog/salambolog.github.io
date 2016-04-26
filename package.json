@@ -1,0 +1,11 @@
+{
+  "name": "salambolog",
+  "version": "1.0.0",
+  "description": "Portfolio page",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "salambolog",
+  "license": "ISC"
+}
