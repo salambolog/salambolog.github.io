@@ -1,9 +1,9 @@
 body {
 background: linear-gradient(357deg, #1d8a6e, #1d418a, #e609f2);
 background-size: 100% 500%;
--webkit-animation: AnimationName 30s ease infinite;
--moz-animation: AnimationName 30s ease infinite;
-animation: AnimationName 30s ease infinite;
+-webkit-animation: AnimationName 10s ease infinite;
+-moz-animation: AnimationName 10s ease infinite;
+animation: AnimationName 10s ease infinite;
 }
 
 
@@ -28,6 +28,7 @@ animation: AnimationName 30s ease infinite;
     height: 1024px;
     overflow: hidden;
     padding-left: 200px;
+    padding-right: 200px;
     margin: 0px;
 }
 
