@@ -1,81 +1,56 @@
 body {
-background: linear-gradient(357deg, #1d8a6e, #1d418a, #e609f2);
-background-size: 100% 500%;
--webkit-animation: AnimationName 10s ease infinite;
--moz-animation: AnimationName 10s ease infinite;
-animation: AnimationName 10s ease infinite;
+    background: linear-gradient(329deg, #0c634d, #421ac1, #c1651a);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
 }
 
-
-/* Hide the scrollbar... */
-
-// body::-webkit-scrollbar {
-//     display: none;
-// }
-
-#slide-container {
-    position: absolute;
-    // top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    // background-color: #000;
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 28% 0%
+    }
+    50% {
+        background-position: 73% 100%
+    }
+    100% {
+        background-position: 28% 0%
+    }
 }
 
-#slides {
-    // position: absolute;
-    width: 1024px;
-    height: 1024px;
-    overflow: hidden;
-    padding-left: 200px;
-    padding-right: 200px;
-    margin: 0px;
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 28% 0%
+    }
+    50% {
+        background-position: 73% 100%
+    }
+    100% {
+        background-position: 28% 0%
+    }
 }
 
-.slide {
-    list-style: none;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 1.0;
-    background-size: cover;
-    background-position: 50% 50%;
-    transition: all 1s linear;
-    -webkit-transition: all 1s linear;
+@keyframes AnimationName {
+    0% {
+        background-position: 28% 0%
+    }
+    50% {
+        background-position: 73% 100%
+    }
+    100% {
+        background-position: 28% 0%
+    }
 }
 
-.buried {
-    opacity: 0.0;
-    visibility: hidden;
+.galleria {
+    width: 1000px;
+    height: 700px;
 }
 
-.was {
-    position: fixed;
-    z-index: 99;
-    top: 50%;
-    cursor: pointer;
-    color: #fff;
-    opacity: 0.7;
-    transition: all 0.66s ease;
-    -webkit-transition: all 0.66s ease;
+.galleria-theme-classic {
+    background: rgba(15,15,15,0.7);
+    border-radius: 6px;
+    border: 3px solid #2a2a2a;
+    margin-left: 20%;
+    margin-bottom: 10%;
 }
-
-.was:hover {
-    opacity: 1.0;
-}
-
-#left {
-    left: 3%;
-}
-
-#right {
-    right: 3%;
-}
-
-#vignette {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: 9;
-    width: 100%;
-    height: 100%;

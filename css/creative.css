@@ -552,3 +552,8 @@ header .header-content .header-content-inner h1 {
 #about {
     background: #6C3747;
 }
+
+.bound {
+    max-width: 650px;
+    max-height: 350px;
+}
