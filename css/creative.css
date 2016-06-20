@@ -592,5 +592,9 @@ body {
     -webkit-background-size: 100% auto;
     -moz-background-size: 100% auto;
     -o-background-size: 100% auto;
+}
 
+img.resize {
+    max-width: 540px;
+    height: auto;
 }
