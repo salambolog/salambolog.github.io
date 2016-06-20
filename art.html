@@ -18,53 +18,47 @@
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
-    <link rel="stylesheet" href="css/art.css" type="text/css">
+    <!-- Unslider -->
+    <link rel="stylesheet" type="text/css" href="unslider-master/dist/css/unslider.css">
+    <link rel="stylesheet" type="text/css" href="unslider-master/dist/css/unslider-dots.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="js/jquery.js"></script>
 </head>
 
 <body id="page-top">
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid" id="nav">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top"></a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <a href="index.html"> <img id="mello" src="img/melon.png">
-                    <p class="inline" id="page-scroll">Ian Narcisse-Cousar
-                        <br> Web Designer and Developer</p>
-                </a>
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <a href="#" class="navbar-brand"><img class="logo" src="img/melon.png"></a>
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse navHeaderCollapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="dev.html">Development</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="UIUX.html">UI/UX</a>
+                        <a href="dev.html">Development</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="design.html">Design</a>
+                        <a href="UIUX.html">UI/UX</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="art.html">Art</a>
+                        <a href="design.html" class="active">Design</a>
+                    </li>
+                    <li>
+                        <a href="art.html">Art</a>
                     </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
-    </nav>
     <header2>
         <div class="header-content">
             <div class="header-content-inner">
@@ -79,36 +73,40 @@
 
 
 
-    <div class="galleria">
-        <img id="vignette" src="http://data.a-class.mercedes-benz.com.cn/v4-cn/desktop/image/vignette_outro.png" />
+    <div class="my-slider">
+        <!-- <img id="vignette" src="http://data.a-class.mercedes-benz.com.cn/v4-cn/desktop/image/vignette_outro.png" /> -->
 
 
         <ul>
 
-            <li class="slide buried"><img src="img/art/B5.png"></li>
-            <li class="slide buried"><img src="img/art/A1.jpg"></li>
-            <li class="slide buried"><img src="img/art/A2.jpg"></li>
-            <li class="slide buried"><img src="img/art/A3.jpg"></li>
-            <li class="slide buried"><img src="img/art/A4.jpg"></li>
-            <li class="slide buried"><img src="img/art/A5.jpg"></li>
-            <li class="slide buried"><img src="img/art/A6.jpg"></li>
-            <li class="slide buried"><img src="img/art/A7.jpg"></li>
-            <li class="slide buried"><img src="img/art/A8.jpg"></li>
-            <li class="slide buried"><img src="img/art/A9.jpg"></li>
-            <li class="slide buried"><img src="img/art/B1.jpg"></li>
-            <li class="slide buried"><img src="img/art/B2.jpg"></li>
-            <li class="slide buried"><img src="img/art/B3.jpg"></li>
-            <li class="slide buried"><img src="img/art/B4.jpg"></li>
-            <li class="slide buried"><img src="img/art/B6.png"></li>
+            <li><img src="img/art/B5.png"></li>
+            <li><img src="img/art/A1.jpg"></li>
+            <li><img src="img/art/A2.jpg"></li>
+            <li><img src="img/art/A3.jpg"></li>
+            <li><img src="img/art/A4.jpg"></li>
+            <li><img src="img/art/A5.jpg"></li>
+            <li><img src="img/art/A6.jpg"></li>
+            <li><img src="img/art/A7.jpg"></li>
+            <li><img src="img/art/A8.jpg"></li>
+            <li><img src="img/art/A9.jpg"></li>
+            <li><img src="img/art/B1.jpg"></li>
+            <li><img src="img/art/B2.jpg"></li>
+            <li><img src="img/art/B3.jpg"></li>
+            <li><img src="img/art/B4.jpg"></li>
+            <li><img src="img/art/B6.png"></li>
 
         </ul>
 
     </div>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-    <!-- Galleria -->
-    <script src="js/galleria-1.4.2.min.js"></script>
+<script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $('.my-slider').unslider();
+        });
+
+</script>
+    <!-- Unlsider -->
+    <script src="unslider-master/dist/js/unslider-min.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
     <!-- Plugin JavaScript -->
@@ -117,7 +115,6 @@
     <script src="js/wow.min.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
-    <script src="js/slide.js"></script>
 </body>
 
 </html>

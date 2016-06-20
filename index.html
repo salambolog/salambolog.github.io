@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/animsition.min.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -27,60 +28,55 @@
 </head>
 
 <body id="page-top">
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid" id="nav">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top"></a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-               <a href="index.html"> <img id="mello" src="img/melon.png">
-                <p class="inline" id="page-scroll">Ian Narcisse-Cousar
-                    <br> Web Designer and Developer</p></a>
+
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <a href="#" class="navbar-brand"><img class="logo" src="img/melon.png"></a>
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse navHeaderCollapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="dev.html">Development</a>
+                    <li class="active">
+                        <a href="#" class="active">Home</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="UIUX.html">UI/UX</a>
+                        <a href="dev.html">Development</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="design.html">Design</a>
+                        <a href="UIUX.html">UI/UX</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="art.html">Art</a>
+                        <a href="design.html">Design</a>
+                    </li>
+                    <li>
+                        <a href="art.html">Art</a>
                     </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
-    </nav>
-    <header>
+
+<!--     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1>My name is Ian <br> Welcome to my website</h1>
+                <h1 class="h1" style="font-size: 200px">My name is Ian Welcome to my website</h1>
                 <hr>
-                <p>Web Designer and Developer at your service!<br>My name is Ian Narcisse-Cousar. I am a recent graduate of the Full Stack Web Development Immersive program at General Assembly in Atlanta, GA. I also have a Bachelor's degree in graphic design from Auburn University of Montgomery.</p>
-                <!-- <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a> -->
-            </div>
+                <p>Web Designer and Developer at your service!</p>
+                    <!-- <br>My name is Ian Narcisse-Cousar. I am a recent graduate of the Full Stack Web Development Immersive program at General Assembly in Atlanta, GA. I also have a Bachelor's degree in graphic design from Auburn University of Montgomery.</p> -->
+           <!--  </div>
         </div>
-    </header>
+    </header> -->
     <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">I love to create, it's really all I do ...</h2>
+                    <h1 class="h1">My name is Ian & welcome to my website</h1>
+                <hr>
+                <h2 class="section-heading">Web Designer and Developer at your service!</h2>
                     <hr class="light">
                     <p class="text-faded">When I'm not coding, I'm designing, when I'm not designing, I'm illustrating, when I'm not illustrating I'm drawing. I enjoy shoegaze music, Indian cuisine, and long walks on the beach. My first love however, is video games.</p>
-                    <!-- <a href="#" class="btn btn-default btn-xl">Get Started!</a> -->
                 </div>
             </div>
         </div>
@@ -123,6 +119,8 @@
             </div>
         </div>
     </section>
+
+
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
             <div class="row no-gutter">
@@ -180,7 +178,7 @@
                                     Illustration
                                 </div>
                                 <div class="project-name">
-                                Illustrator and Bamboo
+                                    Illustrator and Bamboo
                                 </div>
                             </div>
                         </div>
@@ -195,7 +193,7 @@
                                     The origin of my passion
                                 </div>
                                 <div class="project-name">
-                                Fine Art
+                                    Fine Art
                                 </div>
                             </div>
                         </div>
@@ -219,14 +217,7 @@
             </div>
         </div>
     </section>
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2></h2>
-                <!-- <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a> -->
-            </div>
-        </div>
-    </aside>
+
     <section id="contact">
         <div class="container">
             <div class="row">
@@ -260,6 +251,7 @@
     <script src="js/wow.min.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
+    <script src="js/animsition.min.js"></script>
 </body>
 
 </html>

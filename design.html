@@ -18,202 +18,93 @@
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <!-- Unslider -->
+    <link rel="stylesheet" type="text/css" href="unslider-master/dist/css/unslider.css">
+    <link rel="stylesheet" type="text/css" href="unslider-master/dist/css/unslider-dots.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="js/jquery.js"></script>
 </head>
 
 <body id="page-top">
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid" id="nav">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top"></a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <a href="index.html"> <img id="mello" src="img/melon.png">
-                    <p class="inline" id="page-scroll">Ian Narcisse-Cousar
-                        <br> Web Designer and Developer</p>
-
-                </a>
-
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <a href="#" class="navbar-brand"><img class="logo" src="img/melon.png"></a>
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse navHeaderCollapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="dev.html">Development</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="UIUX.html">UI/UX</a>
+                        <a href="dev.html">Development</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="design.html">Design</a>
+                        <a href="UIUX.html">UI/UX</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="art.html">Art</a>
+                        <a href="design.html" class="active">Design</a>
+                    </li>
+                    <li>
+                        <a href="art.html">Art</a>
                     </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
-    </nav>
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1>Graphic Design</h1>
-                <br>
-                <h2>Illustrator - Photoshop - Indesign </h2>
-                <img src="img/portfolio/Cronos.png" alt="">
-                <hr>
-                <p></p>
-            </div>
-        </div>
-    </header>
-
-<section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">I graduated from Auburn University of Montgomery with a Bachelors in Graphic and Web Design</h2>
-                    <hr class="light">
-                    <p class="text-faded">In graphic design my passion is logo design. I love using simple shapes to create dimensions. </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img class="bound" src="img/portfolio/G1.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Press_Start
-                                </div>
-                                <div class="project-name">
-
-                                </div>
-                            </div>
+        <section class="bg-primary" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <div class="header-content-inner">
+                            <h1>Graphic Design</h1>
+                            <br>
+                            <h2>Illustrator - Photoshop - Indesign - Flash</h2>
+                            <img src="img/portfolio/Cronos.png" alt="Cronos.jpg">
+                            <hr>
+                            <h2 class="section-heading">I graduated from Auburn University of Montgomery with a Bachelors in Graphic and Web Design</h2>
+                            <hr class="light">
+                            <p class="text-faded">In graphic design my passion is logo design. I love using simple shapes to create dimensions. </p>
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img class="bound" src="img/portfolio/G3.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    User Interface/User Experience
-                                </div>
-                                <div class="project-name">
-                                    and Web Design
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/G4.jpeg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Business Card
-                                </div>
-                                <div class="project-name">
-                                    3rd Eye
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/G5.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Directions Logo
-                                </div>
-                                <div class="project-name">
-                                Fine Art
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/1M.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Me
-                                </div>
-                                <div class="project-name">
-                                    This is what I look like.
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2></h2>
-                <!-- <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a> -->
-            </div>
-        </div>
-    </aside>
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <div class="col-lg-12 text-center wow bounceIn">
-                        <p>
-                            <a href="https://www.linkedin.com/in/iannarcissecousar"><img id="tiny" src="img/Linkedin.png"></a>
-                        </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>(334) 467-7153</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com">salambolog@gmail.com</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    </section>
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/wow.min.js"></script>
-    <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script>
+        <div class="my-slider">
+            <ul>
+                <li><img src="img/portfolio/G1.png"></li>
+                <li><img src="img/portfolio/G2.jpeg"></li>
+                <li><img src="img/portfolio/G4.jpeg"></li>
+
+
+            </ul>
+        </div>
+        <script type="text/javascript">
+
+
+        jQuery(document).ready(function($) {
+            $('.my-slider').unslider();
+        });
+
+
+        </script>
+        <!-- jQuery -->
+        <script src="unslider-master/dist/js/unslider-min.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Plugin JavaScript -->
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/jquery.fittext.js"></script>
+        <script src="js/wow.min.js"></script>
+        <!-- Custom Theme JavaScript -->
+        <script src="js/creative.js"></script>
 </body>
 
 </html>
