@@ -560,8 +560,8 @@ body {
 }
 
 .logo {
-    max-height: 86px;
-    max-width: 86px;
+    max-height: 66px;
+    max-width: 66px;
 }
 
 // Unslider
@@ -597,4 +597,9 @@ body {
 img.resize {
     max-width: 540px;
     height: auto;
+}
+
+.topper {
+    font-family: bebas neue;
+    color: #474747;
 }
