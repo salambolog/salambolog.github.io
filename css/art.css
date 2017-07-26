@@ -4,6 +4,25 @@ body {
     background: #fff;
 }
 
+h1 {
+    font-family: 'Bellefair', serif;
+}
+
+p {
+    font-family: 'Bellefair', serif;
+}
+
+.artParagraph {
+    padding: 0;
+    font-size: 1em;
+    font-weight: normal;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
 @-webkit-keyframes AnimationName {
     0% {
         background-position: 28% 0%
