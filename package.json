@@ -7,5 +7,8 @@
     "test": "test"
   },
   "author": "salambolog",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "owl.carousel": "^2.3.3"
+  }
 }
