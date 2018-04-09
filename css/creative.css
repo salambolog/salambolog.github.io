@@ -70,7 +70,8 @@ hr.light {
 }
 
 a {
-    color: #f05f40;
+    color: #fff;
+    font-family: bebas neue;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -111,6 +112,7 @@ p {
     line-height: 1.75;
     letter-spacing: 0.5px;
     color: #fff;
+    font-family: bebas neue;
 }
 
 h3 {

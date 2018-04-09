@@ -9,6 +9,7 @@
   "author": "salambolog",
   "license": "ISC",
   "dependencies": {
+    "lazysizes": "^4.0.2",
     "owl.carousel": "^2.3.3"
   }
 }
