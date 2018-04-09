@@ -251,19 +251,19 @@ aside {
     }
 }
 
-// header {
-//     position: relative;
-//     width: 100%;
-//     min-height: auto;
-//     text-align: center;
-//     color: #fff;
-//     background-image: url(../img/headblur.jpg);
-//     background-position: center;
-//     -webkit-background-size: cover;
-//     -moz-background-size: cover;
-//     background-size: cover;
-//     -o-background-size: cover;
-// }
+ header {
+     position: relative;
+     width: 100%;
+     min-height: auto;
+     text-align: center;
+     color: #fff;
+     background-image: url(../img/headblur.jpg);
+     background-position: center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     background-size: cover;
+     -o-background-size: cover;
+ }
 header2 {
     position: relative;
     width: 100%;
@@ -279,18 +279,19 @@ header2 {
 
 header .header-content {
     position: relative;
-    width: 100%; // padding: 100px 15px;
+    width: 100%; 
+    padding: 100px 15px;
     margin-top: 10%;
     text-align: center;
     background-color: #222;
 }
 
-// header .header-content .header-content-inner h1 {
-//     margin-top: 0;
-//     margin-bottom: 0;
-//     text-transform: uppercase;
-//     font-weight: 700;
-// }
+ header .header-content .header-content-inner h1 {
+     margin-top: 0;
+     margin-bottom: 0;
+     text-transform: uppercase;
+     font-weight: 700;
+ }
 header2 .header-content {
     position: relative;
     width: 100%;
@@ -298,12 +299,12 @@ header2 .header-content {
     text-align: center;
 }
 
-// header2 .header-content .header-content-inner h1 {
-//     margin-top: 0;
-//     margin-bottom: 0;
-//     text-transform: uppercase;
-//     font-weight: 700;
-// }
+ header2 .header-content .header-content-inner h1 {
+     margin-top: 0;
+     margin-bottom: 0;
+     text-transform: uppercase;
+     font-weight: 700;
+ }
 header .header-content .header-content-inner hr {
     margin: 30px auto;
 }
@@ -623,9 +624,9 @@ body {
     margin-right: 1em;
 }
 
-// header .header-content .header-content-inner h1 {
-//     margin-top: 3em;
-// }
+ header .header-content .header-content-inner h1 {
+     margin-top: 3em;
+ }
 
 #tiny {
     max-width: 40px;
@@ -658,9 +659,10 @@ body {
 a > p {
     color: #fff;
 }
-// Unslider
+Unslider
 .my-slider {
-    position: relative; // width: 100% !important;
+    position: relative;
+    width: 100% !important;
     overflow: auto;
     padding: 0px;
     margin: 0px;

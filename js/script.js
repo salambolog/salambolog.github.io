@@ -13,7 +13,6 @@
         singleItem: true,
         autoHeight: true,
         responsiveClass: true,
-        lazyLoad: true,
         responsive: {
             0: {
                 items: 1,
