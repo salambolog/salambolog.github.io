@@ -1,13 +1,17 @@
 body {
-    background: #E56262;
+    background: #f7f7f7;
 }
 
 h1 {
-    font-family: 'Bebas Neue';
+    font-family: 'Libre Baskerville', serif;
+    font-size: 200px;
+    color: #654a4e;
 }
 
 p {
-    font-family: 'Bebas Neue';
+    font-family: 'Libre Baskerville', serif;
+    color: #654a4e;
+    line-height: 1.8em;
 }
 
 .galleria {
@@ -33,6 +37,7 @@ img {
 .item {
     height: 800px;
     width: 800px;
+    background-size: contain;
 }
 
 #B7 {
@@ -40,9 +45,16 @@ img {
     background-repeat: no-repeat;
 }
 @media all and (max-width: 768px) {
-    #B7 {
-        width: 400px !important;
+    .item {
+        height: 400px;
+        width: 400px;
+        background-size: contain;
     }
+}
+.owl-carousel .owl-stage {
+  /*display: flex;*/
+  /*align-items: center;*/
+  margin: 0 auto; 
 }
 
 #B2 {
