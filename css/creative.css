@@ -136,12 +136,12 @@ h3 {
 }
 
 .bg-primary {
-    background-color: #E56262;
+    /*background-color: #E56262;*/
 }
 
 .bg-dark {
     color: #fff;
-    background-color: #E56262;
+    /*background-color: #E56262;*/
 }
 
 @media all and (max-width: 768px) {
