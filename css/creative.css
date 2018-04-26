@@ -59,8 +59,8 @@ div.navbar.navbar-inverse.navbar-static-top {
 .navbar-inverse .navbar-nav>.active>a:hover {
     background-color: transparent;
     color: #654a4e;
-    /*font-family: 'Bebas Neue';*/
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Bebas Neue';
+    /*font-family: 'Libre Baskerville', serif;*/
 }
 
 .navbar-static-top {
