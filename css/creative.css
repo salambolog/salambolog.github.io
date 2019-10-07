@@ -112,6 +112,42 @@ h1 {
     font-family: 'Libre Baskerville', serif;
 }
 
+@media all and (max-width: 767px) {
+    h1 {
+        font-family: "Bebas Neue";
+        margin-top: 50px;
+    }
+
+    h2 {
+        font-family: "Bebas Neue";
+    }
+
+    div.container > div.row > .text-center > p > a {
+        font-family: "Bebas Neue";   
+    }
+
+    div.container > div.row > .text-center.emails > i.fa-envelope-o {
+        margin: 16px 0 8px;
+    }
+
+    h1.h1 {
+        font-family: "Bebas Neue";
+        font-size: 2em;
+    }
+
+    h2.section-heading.service {
+        margin-top: 6px; 
+    }
+
+    .phone {
+        margin: 40px auto 20px;
+    }
+
+    .fadeInRight > div:nth-child(1) > div:nth-child(1) {
+        margin-top: 36px;   
+    }
+}
+
 h2,
 h3,
 h4,
@@ -127,6 +163,12 @@ p {
     letter-spacing: 0.5px;
     color: #654a4e;
     font-family: 'Libre Baskerville', serif;
+}
+
+@media all and (max-width: 767px) {
+    p {
+        font-family: "Bebas Neue";
+    }
 }
 
 h3 {
@@ -158,6 +200,12 @@ h3 {
 section {
     padding: 100px 0;
     background: #e6ddde;
+}
+
+@media all and (max-width: 767px) {
+    section {
+        padding: 50px 0;
+    }
 }
 
 aside {
@@ -374,10 +422,10 @@ header2 .header-content .header-content-inner p {
     font-family: 'Libre Baskerville', serif;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .section-heading {
-/*        font-size: 56px;*/
         font-size: 18px;
+        margin: 0;
     }
 }
 
@@ -387,8 +435,20 @@ h2 {
     color: #654a4e;
 }
 
+@media all and (max-width: 767px) {
+    h2, .section-heading {
+        font-family: "Bebas Neue";
+    }
+}
+
 .service {
     margin: 40px auto 100px;
+}
+
+@media all and (max-width: 767px) {
+    .service {
+        margin: 40px auto 0;
+    }
 }
 
 .sage {
@@ -404,12 +464,6 @@ h2 {
     left: 50%;
     transform: translate(-50%);
     margin: 70px auto;
-}
-
-@media all and (max-width: 768px) {
-    .Turner {
-        width: unset;
-    }
 }
 
 .service-box {
@@ -676,13 +730,30 @@ header .header-content .header-content-inner h1 {
     background: #e6ddde;
 }
 
+@media all and (max-width: 767px) {
+    #about {
+        padding: 0;
+    }
+
+    #tiny {
+        margin: 16px 0;
+    }
+
+    .fa-phone > p {
+        margin: 16px 0;
+    }
+}
+
 #contact {
     background: #e6ddde;
 }
 
-@media all and (max-width:768px) {
+@media all and (max-width:767px) {
     #contact {
-        padding: 25px 0; 
+        padding: 55px 0 25px; 
+    }
+    #services {
+        display: none;
     }
 }
 
@@ -758,19 +829,7 @@ img#Gen {
 
 @media all and (max-width: 768px) {
     #Gen {
-        margin: 60px 0;
-    }
-}
-
-@media all and (max-width: 768px) {
-    .sage {
-        margin: 60px 0;
-    }
-}
-
-@media all and (max-width: 768px) {
-    .phone {
-        margin: 40px auto;
+        margin: 30px 0;
     }
 }
 
@@ -788,5 +847,56 @@ img#Gen {
     }
     .navbar.navbar-collapse {
         border: none; 
+    }
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #654a4e;
+}
+
+@media all and (max-width: 767px) {
+    .Turner {
+        width: unset;
+        text-align: unset;
+        margin-bottom: 0;
+        font-size: 25px;
+    }
+
+    h1.sage {
+        text-align: unset;
+        font-size: 25px !important;
+        margin: 30px 0;
+    }
+
+    .top-marg {
+        margin: 16px 0;
+    }
+
+    .logo {
+        max-height: 46px;
+        max-width: 46px;
+    }
+
+    .navbar-brand {
+        padding: 10px 5px;
+        width: auto;
+        display: flex;
+    }
+
+    .navbar-brand > img.logo {
+        align-self: center;
+        margin: 18px 10px 10px 0;
+    }
+
+    .navbar-brand > img.logo > p {
+        align-self: flex-start;
+    }
+
+    .navbar-toggle {
+        margin-right: 0;
+    }
+
+    .notop {
+        margin-top: 0 !important;
     }
 }
