@@ -73,12 +73,6 @@ hr {
     margin-bottom: 0;
 }
 
-@media only screen and (max-width: 768px) {
-    hr {
-        display: none;
-    }
-}
-
 hr.light {
     border-color: #fff;
 }
@@ -133,6 +127,7 @@ h1 {
     h1.h1 {
         font-family: "Bebas Neue";
         font-size: 2em;
+        padding-left: 0.5rem;
     }
 
     h2.section-heading.service {
@@ -390,6 +385,10 @@ header2 .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
+}
+
+.header-content {
+    background: #e6ddde;
 }
 
 @media(min-width:768px) {
@@ -828,9 +827,6 @@ img#Gen {
 }
 
 @media all and (max-width: 768px) {
-    #Gen {
-        margin: 30px 0;
-    }
 }
 
 @media all and (max-width: 768px) {
@@ -885,7 +881,7 @@ img#Gen {
 
     .navbar-brand > img.logo {
         align-self: center;
-        margin: 18px 10px 10px 0;
+        margin: 10px 10px 10px 0;
     }
 
     .navbar-brand > img.logo > p {
@@ -898,5 +894,17 @@ img#Gen {
 
     .notop {
         margin-top: 0 !important;
+    }
+
+    .inline-text {
+        display: inline;
+    }
+
+    .inline-text > .col-xs-6 {
+        text-align: center;
+    }
+
+    hr {
+        display: none;
     }
 }

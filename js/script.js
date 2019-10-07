@@ -4,15 +4,15 @@
         items: 1,
         animateOut: 'fadeOutRight',
         animateIn: 'fadeInLeft',
-        // autoplay: true,
+        autoplay: true,
         touchDrag: true,
         center: true,
         margin: 20,
-        slideSpeed: 20000,
+        slideSpeed: 15000,
         nav: false,
-        // dotsEach: 3,
         singleItem: true,
         autoHeight: true,
+        autoWidth: true,
         responsiveClass: true,
         responsive: {
             0: {
