@@ -12,12 +12,12 @@
         nav: false,
         singleItem: true,
         autoHeight: true,
-        autoWidth: true,
         responsiveClass: true,
         responsive: {
             0: {
                 items: 1,
                 loop: true
+                autoWidth: true,
             },
             768: {
                 items: 1,
