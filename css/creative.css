@@ -70,7 +70,7 @@ div.navbar.navbar-inverse.navbar-static-top {
 hr {
     max-width: 100%;
     border: 1px solid #916a70;
-    margin-bottom: 0;
+    margin: 4rem;
 }
 
 hr.light {
