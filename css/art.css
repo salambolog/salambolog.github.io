@@ -1,6 +1,4 @@
-body {
-    background: #f7f7f7;
-}
+
 
 h1 {
     font-family: 'Libre Baskerville', serif;
@@ -126,11 +124,29 @@ img {
 }
 
 @media all and (max-width: 768px) {
-    header2 .header-content {
-        position: relative;
+    .header-content {
         width: 100%;
-        padding: 130px 15px 40px;
-        margin-top: 10%;
         text-align: center;
+        margin: 20px auto 50px;
+        padding: 0 2em;
+    }
+
+    .header-content h1 {
+        margin-top: 0;
+    }
+
+    h1, p {
+        font-family: 'Bebas Neue';
+    }
+
+    .p-bottom {
+        padding: 0 2rem 2rem;
     }
 }
+
+    .header-content {
+        width: 100%;
+        text-align: center;
+        margin: 20px auto 50px;
+        padding: 0 2em;
+    }
