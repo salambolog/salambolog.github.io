@@ -63,22 +63,22 @@
                 </div>
             </div>
         </div>
-        <div class="container top-marg">
+        <div class="container top-marg obj">
             <div class="row">
                 <div class="col-sm-6 col-md-12">
-                    <h1 class="sage animated fadeInRight">WebMD</h1>
+                    <h1 class="sage animated">WebMD</h1>
                 </div>
                 <div class="col-sm-6 col-md-12">
-                    <h1 class="sage animated fadeInRight">Capgemini</h1>
+                    <h1 class="sage animated">Capgemini</h1>
                 </div>
-                <div class="col-sm-12  col-md-12" id="Gen">
-                    <h1 class="sage animated fadeInRight">SAGEPATH</h1>
+                <div class="col-sm-6  col-md-12" id="Gen">
+                    <h1 class="sage animated">SAGEPATH</h1>
                 </div>
-                <div class="col-sm-12 col-md-12">
-                    <h1 class="sage animated fadeInRight">GENERAL ASSEMBLY</h1>
+                <div class="col-sm-6 col-md-12">
+                    <h1 class="sage animated">GENERAL ASSEMBLY</h1>
                 </div>
-                <div class="col-sm-12 col-md-12">
-                    <h1 class="sage animated fadeInRight">Turner</h1>
+                <div class="col-sm-6 col-md-12">
+                    <h1 class="sage animated">Turner</h1>
                 </div>
             </div>
         </div>
@@ -250,6 +250,14 @@
     <script src="js/wow.min.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
+    <script>
+    let myJobs = $(".obj > .row > .col-sm-6 h1");
+
+    function children() {
+        myJobs.each().addClass("fadeInRight");
+    }
+    setTimeout(children, 3000);
+    </script>
 </body>
 
 </html>
