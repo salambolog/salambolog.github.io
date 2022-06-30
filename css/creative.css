@@ -1,11 +1,13 @@
-$green: #165e1c;
-$yellow: #EACB03;
-$red: #C42819;
-$blue: #0077A2;
-$stone: #EEEFCF;
-$texture: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
-$cloth: url("https://www.transparenttextures.com/patterns/vaio.png");
-$woods: url("https://www.transparenttextures.com/patterns/tree-bark.png");
+:root {
+--green: #03412A;
+--orange: #FBBD14;
+--red: #C42819;
+--blue: #0077A2;
+--stone: #EEEFCF;
+--texture: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+--cloth: url("https://www.transparenttextures.com/patterns/vaio.png");
+--woods: url("https://www.transparenttextures.com/patterns/tree-bark.png");
+}
 
 @font-face {
     font-family: "Gotham-Rounded-Bold";
@@ -21,11 +23,12 @@ html,
 body {
     width: 100%;
     height: 100%;
-    background-color: #FBBD14;
+    background-color: var(--orange);
+    font-family: 'Bebas Neue';
 }
 
-body {
-    font-family: 'Bebas Neue';
+h1, h2, h3, h4, p {
+    color: var(--green);
 }
 
 .navbar-inverse {
@@ -33,7 +36,11 @@ body {
 }
 
 div.navbar.navbar-inverse.navbar-static-top {
-    background-color: #FBBD14;
+    background-color: var(--orange);
+}
+
+.collapse.navbar-collapse.navHeaderCollapse {
+    margin-bottom: 40px;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -41,6 +48,14 @@ div.navbar.navbar-inverse.navbar-static-top {
     font-size: 3rem;
 }
 
+.wrap-title {
+    border: 5px solid #03412A;
+    border-radius: 25px;
+    padding: 15px;
+    background: #f5cee3;
+    background-image: var(--texture);
+    text-align: center;
+}
 
 .navbar-inverse .navbar-toggle {
     background-color: pink;
@@ -66,7 +81,7 @@ div.navbar.navbar-inverse.navbar-static-top {
 }
 
 .navbar-static-top {
-    background: #FBBD14;
+    background: var(--orange);
 }
 
 hr {
@@ -93,7 +108,6 @@ a:focus {
 }
 
 h1 {
-    font-family: 'Libre Baskerville', serif;
     font-size: 200px;
     color: #03412A;
 }
@@ -103,9 +117,7 @@ h1 {
 }
 
 .h1 {
-    /*color: #d4d2d2;*/
     color: #03412A;
-    font-family: 'Libre Baskerville', serif;
 }
 
 @media all and (max-width: 767px) {
@@ -159,23 +171,34 @@ p {
     line-height: 1.75;
     letter-spacing: 0.5px;
     color: #03412A;
-    font-family: 'Libre Baskerville', serif;
 }
 
 @media all and (max-width: 767px) {
     p {
         font-family: "Bebas Neue";
     }
+    .navbar-right {
+        margin: 0 !important;
+        text-align: right;
+    }
+    .collapse.navbar-collapse.navHeaderCollapse {
+        margin-bottom: 0;
+        width: 100%;
+        border: none;
+        box-shadow: none;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+        padding-right: 0;
+    }
 }
 
 h3 {
     color: #03412A;
-    font-family: 'Libre Baskerville', serif;
     font-weight: 600;
 }
 
-.bg-primary {
-    /*background-color: #E56262;*/
+#about .top-marg {
+    background: #64BDE2;
 }
 
 .bg-dark {
@@ -270,8 +293,9 @@ aside {
 }
 
 @media(min-width:768px) {
-    div.navbar.navbar-inverse.navbar-static-top {
-        margin-bottom: 40px;
+
+    #about {
+        padding-top: 30px;
     }
     .navbar-default {
         border-color: transparent;
@@ -397,6 +421,9 @@ header2 .header-content .header-content-inner p {
 }
 
 @media(min-width:768px) {
+    .intro-div {
+        padding-bottom: 30px;
+    }
     header {
         min-height: 100%;
     }
@@ -423,7 +450,7 @@ header2 .header-content .header-content-inner p {
 
 .section-heading {
     color: #03412A;
-    font-family: 'Libre Baskerville', serif;
+    
 }
 
 @media only screen and (max-width: 767px) {
@@ -452,7 +479,7 @@ h2 {
 }
 
 .sage {
-    font-size: 45px;
+    font-size: 60px !important;
     color: #03412A;
     margin: 70px auto;
     text-align: center;
@@ -778,12 +805,12 @@ header .header-content .header-content-inner h1 {
 
 a>p {
     color: #03412A;
-    font-family: 'Libre Baskerville', serif;
+    
 }
 
 .text-center p a {
     color: #03412A;
-    font-family: 'Libre Baskerville', serif;
+    
 }
 
 .my-slider ul {
@@ -856,6 +883,18 @@ img#Gen {
 }
 
 @media all and (max-width: 767px) {
+    .navbar.navbar-inverse.navbar-static-top {
+        margin: 0;
+    }
+    div.intro-div {
+        margin: 0 !important;
+        padding: 0;
+    }
+
+    .wrap-title {
+        border: none;
+        border-radius: 0;
+    }
     .Turner {
         width: unset;
         text-align: unset;
@@ -871,7 +910,6 @@ img#Gen {
 
     .top-marg {
         margin: 16px 0;
-        background: #64BDE2;
     }
 
     .container.animated.fadeInLeft.top-marg {
@@ -918,9 +956,4 @@ img#Gen {
         display: none;
     }
 }
-.wrap-title {
-    border: 5px solid #03412A;
-    border-radius: 25px;
-    padding: 15px;
-    background: #f5cee3;
-}
+
