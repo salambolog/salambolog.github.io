@@ -1,263 +1,305 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
     <title>Ian Narcisse-Cousar</title>
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
     <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Libre+Franklin" rel="stylesheet">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Bellefair"
+      rel="stylesheet"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Libre+Franklin"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="font-awesome/css/font-awesome.min.css"
+      type="text/css"
+    />
     <!-- Plugin CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css" />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <link rel="stylesheet" href="css/creative.css" type="text/css" />
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-</head>
+    <script
+      src="https://unpkg.com/react@16/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="js/like_button.js"></script>
+  </head>
 
-<body id="page-top">
+  <body id="page-top">
     <div class="navbar navbar-inverse navbar-static-top">
-        <div class="container animated fadeInLeft top-marg">
-            <a href="index.html" class="navbar-brand"><img class="logo" src="img/melon.png">
-                <p class="topper animated zoomInRight">Web Developer/Designer</p>
-            </a>
-            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <div class="collapse navbar-collapse navHeaderCollapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="dev.html">Dev</a>
-                    </li>
-                    <li>
-                        <a href="design.html">Design</a>
-                    </li>
-                    <li>
-                        <a href="art.html">Art</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container animated fadeInLeft top-marg">
+        <a href="index.html" class="navbar-brand"
+          ><img class="logo" src="img/melon.png" />
+          <p class="topper animated zoomInRight">Web Developer/Designer</p>
+        </a>
+        <button
+          class="navbar-toggle"
+          data-toggle="collapse"
+          data-target=".navHeaderCollapse"
+        >
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse navHeaderCollapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="dev.html">Dev</a>
+            </li>
+            <li>
+              <a href="design.html">Design</a>
+            </li>
+            <li>
+              <a href="art.html">Art</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </div>
     <section class="bg-primary" id="about">
-        <div class="container  animated fadeInRight">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center notop">
-                    <h1 class="h1">My name is Ian & welcome to my website</h1>
-                    <hr>
-                    <h2 class="section-heading service">Web Designer and Developer at your service!</h2>
-                </div>
-            </div>
+      <div class="container  animated fadeInRight">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 text-center notop">
+            <h1 class="h1">My name is Ian & welcome to my website</h1>
+            <hr />
+            <h2 class="section-heading service">
+              Web Designer and Developer at your service!
+            </h2>
+          </div>
         </div>
-        <div class="container top-marg obj">
-            <div class="row">
-                <div class="col-sm-6 col-md-12">
-                    <h1 class="sage animated">WebMD</h1>
-                </div>
-                <div class="col-sm-6 col-md-12">
-                    <h1 class="sage animated">Capgemini</h1>
-                </div>
-                <div class="col-sm-6  col-md-12" id="Gen">
-                    <h1 class="sage animated">SAGEPATH</h1>
-                </div>
-                <div class="col-sm-6 col-md-12">
-                    <h1 class="sage animated">GENERAL ASSEMBLY</h1>
-                </div>
-                <div class="col-sm-6 col-md-12">
-                    <h1 class="sage animated">Turner</h1>
-                </div>
-            </div>
+      </div>
+      <!-- ///React test -->
+      <div id="like_button_container"></div>
+      <!-- ///React test -->
+      <div class="container top-marg obj">
+        <div class="row">
+          <div class="col-sm-6 col-md-12">
+            <h1 class="sage animated">CDC</h1>
+          </div>
+          <div class="col-sm-6 col-md-12">
+            <h1 class="sage animated">WebMD</h1>
+          </div>
+          <div class="col-sm-6 col-md-12">
+            <h1 class="sage animated">Capgemini</h1>
+          </div>
+          <div class="col-sm-6  col-md-12" id="Gen">
+            <h1 class="sage animated">SAGEPATH</h1>
+          </div>
+          <div class="col-sm-6 col-md-12">
+            <h1 class="sage animated">GENERAL ASSEMBLY</h1>
+          </div>
+          <div class="col-sm-6 col-md-12">
+            <h1 class="sage animated">Turner</h1>
+          </div>
         </div>
+      </div>
     </section>
     <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">This is what I do.</h2>
-                    <hr class="primary">
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">This is what I do.</h2>
+            <hr class="primary" />
+          </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <h3>Strong Front End Developer</h3>
-                        <p class="text-muted">I am able to accomplish any task with style.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <h3>Strong Design and Aesthetic</h3>
-                        <p class="text-muted">"I love it when a plan comes together." -Hannibal, A-Team</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <h3>General Assembly Certified</h3>
-                        <p class="text-muted">3 months of drinking from a firehose. I loved every minute!</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <h3>Graphic and Web Design Background</h3>
-                        <p class="text-muted">From Atlanta College of Art to Scad to AUM.</p>
-                    </div>
-                </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <h3>Strong Front End Developer</h3>
+              <p class="text-muted">
+                I am able to accomplish any task with style.
+              </p>
             </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <h3>Strong Design and Aesthetic</h3>
+              <p class="text-muted">
+                "I love it when a plan comes together." -Hannibal, A-Team
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <h3>General Assembly Certified</h3>
+              <p class="text-muted">
+                3 months of drinking from a firehose. I loved every minute!
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <h3>Graphic and Web Design Background</h3>
+              <p class="text-muted">
+                From Atlanta College of Art to Scad to AUM.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/6.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category">
-                                    Full Stack Web Development
-                                </div>
-                                <div class="project-name">
-                                    General Assembly Certified
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+      <div class="container-fluid">
+        <div class="row no-gutter">
+          <div class="col-lg-4 col-sm-6">
+            <a href="#" class="portfolio-box">
+              <img src="img/portfolio/6.png" class="img-responsive" alt="" />
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category">
+                    Full Stack Web Development
+                  </div>
+                  <div class="project-name">
+                    General Assembly Certified
+                  </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/7.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Graphic Design
-                                </div>
-                                <div class="project-name">
-                                    BFA in Graphic/Web Design
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a href="#" class="portfolio-box">
+              <img src="img/portfolio/7.png" class="img-responsive" alt="" />
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Graphic Design
+                  </div>
+                  <div class="project-name">
+                    BFA in Graphic/Web Design
+                  </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/8.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    User Interface/User Experience
-                                </div>
-                                <div class="project-name">
-                                    and Web Design
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a href="#" class="portfolio-box">
+              <img src="img/portfolio/8.png" class="img-responsive" alt="" />
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    User Interface/User Experience
+                  </div>
+                  <div class="project-name">
+                    and Web Design
+                  </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/1I.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Illustration
-                                </div>
-                                <div class="project-name">
-                                    Illustrator and Bamboo
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a href="#" class="portfolio-box">
+              <img src="img/portfolio/1I.png" class="img-responsive" alt="" />
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Illustration
+                  </div>
+                  <div class="project-name">
+                    Illustrator and Bamboo
+                  </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/1A.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    The origin of my passion
-                                </div>
-                                <div class="project-name">
-                                    Fine Art
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a href="#" class="portfolio-box">
+              <img src="img/portfolio/1A.png" class="img-responsive" alt="" />
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    The origin of my passion
+                  </div>
+                  <div class="project-name">
+                    Fine Art
+                  </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/1M.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Me
-                                </div>
-                                <div class="project-name">
-                                    This is what I look like.
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a href="#" class="portfolio-box">
+              <img src="img/portfolio/1M.png" class="img-responsive" alt="" />
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Me
+                  </div>
+                  <div class="project-name">
+                    This is what I look like.
+                  </div>
                 </div>
-            </div>
+              </div>
+            </a>
+          </div>
         </div>
+      </div>
     </section>
     <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <div class="col-lg-12 text-center wow bounceIn">
-                        <p>
-                            <a href="https://www.linkedin.com/in/iannarcissecousar"><img id="tiny" src="img/Linkedin.png"></a>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 phone text-center">
-                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>(334) 467-7153</p>
-                </div>
-                <div class="col-lg-4 text-center emails">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com">salambolog@gmail.com</a></p>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 text-center">
+            <h2 class="section-heading">Let's Get In Touch!</h2>
+            <hr class="primary" />
+            <div class="col-lg-12 text-center wow bounceIn">
+              <p>
+                <a href="https://www.linkedin.com/in/iannarcissecousar"
+                  ><img id="tiny" src="img/Linkedin.png"
+                /></a>
+              </p>
             </div>
+          </div>
+          <div class="col-lg-4 col-lg-offset-2 phone text-center">
+            <i class="fa fa-phone fa-3x wow bounceIn"></i>
+            <p>(334) 467-7153</p>
+          </div>
+          <div class="col-lg-4 text-center emails">
+            <i
+              class="fa fa-envelope-o fa-3x wow bounceIn"
+              data-wow-delay=".1s"
+            ></i>
+            <p>
+              <a href="mailto:your-email@your-domain.com"
+                >salambolog@gmail.com</a
+              >
+            </p>
+          </div>
         </div>
+      </div>
     </section>
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/wow.min.js"></script>
-    <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script>
-    <script>
-    let myJobs = $(".obj > .row > .col-sm-6 h1");
-
-    function children() {
-        myJobs.each().addClass("fadeInRight");
-    }
-    setTimeout(children, 3000);
-    </script>
-</body>
-
+  </body>
 </html>
