@@ -140,7 +140,7 @@ a {
         color: #000;
         width: auto;
         font-size: 20px;
-        margin: 0;
+        margin: 10px;
     }
 
     h1 {
@@ -855,91 +855,42 @@ img#Gen {
         background: transparent;
       }
       .nav-icon-1 span{
-        width: 2px;
-        height: 2px;
-        background-color: #000;
         display: block;
-        border-radius: 50%;
-        position: absolute;
-      
+        width: 23px;
+        height: 1px;
+        margin-bottom: 5px;
+        position: relative;
+        background: #000;
+        transform-origin: 4px 0px;
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), background 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.55s ease;
       }
+
       .nav-icon-1:hover span{
         transform: scale(1.2);
         transition: 350ms cubic-bezier(.8, .5, .2, 1.4);
-      }
-      .nav-icon-1 span:nth-child(1){
-        left: 0;
-        top: 0;
-      }
-      .nav-icon-1 span:nth-child(2){
-        left: 12px;
-        top: 0;
-      }
-      .nav-icon-1 span:nth-child(3){
-        right: 4px;
-        top: 0;
-      }
-      .nav-icon-1 span:nth-child(4){
-        left: 0;
-        top: 12px;
-      }
-      .nav-icon-1 span:nth-child(5){
-        position: absolute;
-        left: 12px;
-        top: 12px;
-      }
-      .nav-icon-1 span:nth-child(6){
-        right: 4px;
-        top: 12px;
-      }
-      .nav-icon-1 span:nth-child(7){
-        left: 0px;
-        bottom: 4px;
-      }
-      .nav-icon-1 span:nth-child(8){
-        position: absolute;
-        left: 12px;
-        bottom: 4px;
-      }
-      .nav-icon-1 span:nth-child(9){
-        right: 4px;
-        bottom: 4px;
-      }
-      .nav-icon-1.open{
-        transform: rotate(180deg);
-        cursor: pointer;
-        transition: .2s cubic-bezier(.8, .5, .2, 1.4);
-      }
-      .nav-icon-1.open span{
-        border-radius: 50%;
-        transition-delay: 200ms;
-        transition: .5s cubic-bezier(.8, .5, .2, 1.4);
-      }
-      .nav-icon-1.open span:nth-child(2) {
-        left: 6px;
-        top: 6px;
-      }
-      .nav-icon-1.open span:nth-child(4) {
-        left: 6px;
-        top: 18px;
-      }
-      .nav-icon-1.open span:nth-child(6) {
-        right: 6px;
-        top: 6px;
-      }
-      .nav-icon-1.open span:nth-child(8) {
-        left: 18px;
-        bottom: 10px;
       }
 
       .navbar-inverse .navbar-brand {
         width: 100%;
       }
 
+      .nav-icon-1 span:first-child
+      {
+        transform-origin: 0% 0%;
+      }
+      
+      .nav-icon-1 span:nth-last-child(2)
+      {
+        transform-origin: 0% 100%;
+      }
 
+      .nav-icon-1.open span {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        background: #232323;
+      }
 
-
-      .navbar-collapse {
+    .navbar-collapse {
         position: fixed;
         top: 50px;
         left: 0;
@@ -959,9 +910,10 @@ img#Gen {
         left: 0;
         transition: left 300ms ease-in-out;
         z-index: 999;
-        height: 300px;
+        height: auto;
         width: 100%;
         background: #fff;
+        border-bottom: 0.5px solid #000;
     }
 
     .navbar-toggler.collapsed ~ .navbar-collapse {
