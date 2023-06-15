@@ -135,7 +135,7 @@ a {
         font-family: 'Bodoni Moda', serif;
         line-height: 0;
         display: inline-block;
-        letter-spacing: .3em;
+        letter-spacing: .2em;
         text-transform: uppercase;
         color: #000;
         width: auto;
@@ -848,7 +848,7 @@ img#Gen {
         height: 30px;
         position: relative;
         transition: .1s;
-        margin: 10px 10px;
+        margin: 10px 10px 10px 0;
         cursor: pointer;
         display: inline-block;
         border: none;
