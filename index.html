@@ -9,77 +9,105 @@
     <meta name="author" content="">
     <title>Ian Narcisse-Cousar</title>
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <script src="https://kit.fontawesome.com/7fe0085c67.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Libre+Franklin" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
 </head>
 
 <body id="page-top">
-    <div class="navbar navbar-inverse navbar-static-top">
-        <div class="container animated fadeInLeft top-marg">
-            <a href="index.html" class="navbar-brand"><img class="logo" src="img/melon.png">
-                <p class="topper animated zoomInRight">Web Developer/Designer</p>
-            </a>
-            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <div class="collapse navbar-collapse navHeaderCollapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="dev.html">Dev</a>
-                    </li>
-                    <li>
-                        <a href="design.html">Design</a>
-                    </li>
-                    <li>
-                        <a href="art.html">Art</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <section class="bg-primary" id="about">
-        <div class="container  animated fadeInRight">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center notop">
-                    <h1 class="h1">My name is Ian & welcome to my website</h1>
-                    <hr>
-                    <h2 class="section-heading service">Web Designer and Developer at your service!</h2>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="top-marg" id="top-marg">
+                <a href="index.html" class="navbar-brand"><img class="logo" src="img/melon.png">
+                    <p class="topper animated fadeInLeft">Web Developer</p>
+                </a>
+                <button class="icon nav-icon-1 navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>       
+    
+                    <span></span>   
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+    
+                </button>
+                    <div class="collapse navbar-collapse navHeaderCollapse" id="navbarCollapse">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a href="dev.html">Dev</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="container top-marg obj">
+        </nav>
+    <section id="about">
+        <div class="container">
             <div class="row">
-                <div class="col-sm-6 col-md-12">
-                    <h1 class="sage animated">WebMD</h1>
+                <div class="col-12 col-lg-6 intro-div">
+                    <div class="wrap-title">
+                        <h5>Hello, My name is Ian and I am a UI developer with 6 years of experience. I also have a degree in graphic & web design.</h5>
+                    </div>
                 </div>
-                <div class="col-sm-6 col-md-12">
-                    <h1 class="sage animated">Capgemini</h1>
-                </div>
-                <div class="col-sm-6  col-md-12" id="Gen">
-                    <h1 class="sage animated">SAGEPATH</h1>
-                </div>
-                <div class="col-sm-6 col-md-12">
-                    <h1 class="sage animated">GENERAL ASSEMBLY</h1>
-                </div>
-                <div class="col-sm-6 col-md-12">
-                    <h1 class="sage animated">Turner</h1>
-                </div>
+
+                <div id="carouselExampleSlidesOnly" class="col-12 col-lg-6 home-image carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/LastNight.png" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="img/art/B7.jpg" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="img/art/A1.jpg" alt="Third slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="img/art/A6.jpg" alt="Third slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="img/art/A8.jpg" alt="Third slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="img/art/A9.jpg" alt="Third slide">
+                      </div>
+                    </div>
+                  </div>
+
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="row equal port-f">
+              <h5 class="employ col-12">Employment</h5>
+              <div class="col-4 col-md-12">
+                  <p>CDC</p>
+              </div>
+              <div class="col-4 col-md-12">
+                  <p>WebMD</p>
+              </div>
+              <div class="col-4 col-md-12">
+                  <p>Capgemini</p>
+              </div>
+              <div class="col-4 col-md-12" id="Gen">
+                  <p>Sagepath</p>
+              </div>
+              <div class="col-4 col-md-12">
+                  <p>Turner</p>
+              </div>
+              <div class="col-4 col-md-12">
+                <p>Creative Circle</p>
+              </div>
             </div>
         </div>
     </section>
@@ -94,25 +122,19 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-md-6 col-lg-4 text-center">
                     <div class="service-box">
                         <h3>Strong Front End Developer</h3>
                         <p class="text-muted">I am able to accomplish any task with style.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-md-6 col-lg-4 text-center">
                     <div class="service-box">
                         <h3>Strong Design and Aesthetic</h3>
                         <p class="text-muted">"I love it when a plan comes together." -Hannibal, A-Team</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <h3>General Assembly Certified</h3>
-                        <p class="text-muted">3 months of drinking from a firehose. I loved every minute!</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-md-6 col-lg-4 text-center">
                     <div class="service-box">
                         <h3>Graphic and Web Design Background</h3>
                         <p class="text-muted">From Atlanta College of Art to Scad to AUM.</p>
@@ -121,94 +143,52 @@
             </div>
         </div>
     </section>
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/6.png" class="img-responsive" alt="">
+    <section id="portfolio">
+        <div class="container">
+            <div class="row equal">
+                <div class="col-6 col-lg-6">
+                    <a href="#">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category">
-                                    Full Stack Web Development
-                                </div>
-                                <div class="project-name">
-                                    General Assembly Certified
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/7.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
+                              <img src="img\dev.png" />
                                 <div class="project-category text-faded">
-                                    Graphic Design
-                                </div>
-                                <div class="project-name">
-                                    BFA in Graphic/Web Design
+                                    UI Dev
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/8.png" class="img-responsive" alt="">
+                <div class="col-6 col-lg-6">
+                    <a href="#">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
+                              <img src="img\logo.png" />
                                 <div class="project-category text-faded">
-                                    User Interface/User Experience
-                                </div>
-                                <div class="project-name">
-                                    and Web Design
+                                    Logo Design
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/1I.png" class="img-responsive" alt="">
+                <div class="col-6 col-lg-6">
+                    <a href="#">
                         <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
+                            <div class="portfolio-box-caption-content illust">
+                              <img src="img\illust.png" />
                                 <div class="project-category text-faded">
                                     Illustration
                                 </div>
-                                <div class="project-name">
-                                    Illustrator and Bamboo
-                                </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/1A.png" class="img-responsive" alt="">
+                <div class="col-6 col-lg-6">
+                    <a href="#">
                         <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
+                            <div class="portfolio-box-caption-content art-i">
+                              <img src="img\art.png" />
                                 <div class="project-category text-faded">
-                                    The origin of my passion
-                                </div>
-                                <div class="project-name">
                                     Fine Art
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/1M.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Me
-                                </div>
-                                <div class="project-name">
-                                    This is what I look like.
                                 </div>
                             </div>
                         </div>
@@ -220,38 +200,31 @@
     <section id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
+                <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <div class="col-lg-12 text-center wow bounceIn">
-                        <p>
-                            <a href="https://www.linkedin.com/in/iannarcissecousar"><img id="tiny" src="img/Linkedin.png"></a>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 phone text-center">
-                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>(334) 467-7153</p>
-                </div>
-                <div class="col-lg-4 text-center emails">
+                    <p>
+                        <a href="https://www.linkedin.com/in/iannarcissecousar"><img id="tiny" src="img/Linkedin.png"></a>
+                    </p>
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                     <p><a href="mailto:your-email@your-domain.com">salambolog@gmail.com</a></p>
                 </div>
             </div>
         </div>
     </section>
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/wow.min.js"></script>
-    <!-- Custom Theme JavaScript -->
+
+
+
     <script src="js/creative.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script>
-    let myJobs = $(".obj > .row > .col-sm-6 h1");
+
+    $(".icon").on("click", function(){
+        $(this).toggleClass("open");
+    })
+
+    let myJobs = $(".obj > .row > .col-6 h1");
 
     function children() {
         myJobs.each().addClass("fadeInRight");

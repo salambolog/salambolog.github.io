@@ -32,39 +32,42 @@
 </head>
 
 <body id="page-top">
-    <div class="navbar navbar-inverse navbar-static-top">
-        <div class="container animated fadeIn">
-            <a href="index.html" class="navbar-brand"><img class="logo" src="img/melon.png"><p class="topper">Web Developer/Designer</p></a>
-            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <div class="collapse navbar-collapse navHeaderCollapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="dev.html">Development</a>
-                    </li>
-                    <li>
-                        <a href="design.html" class="active">Design</a>
-                    </li>
-                    <li>
-                        <a href="art.html">Art</a>
-                    </li>
-                </ul>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="top-marg" id="top-marg">
+                <a href="index.html" class="navbar-brand"><img class="logo" src="img/melon.png">
+                    <p class="topper animated fadeInLeft">Web Developer</p>
+                </a>
+                <button class="icon nav-icon-1 navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>       
+    
+                    <span></span>   
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+    
+                </button>
+                    <div class="collapse navbar-collapse navHeaderCollapse" id="navbarCollapse">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a href="dev.html">Dev</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
-        <section class="bg-primary" id="about">
+        </nav>
+        <section id="about">
             <div class="container  animated fadeInLeft">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2 text-center">
                         <div class="header-content-inner">
-                            <h1>Graphic Design</h1>
-                            <br>
-                            <h2>Illustrator - Photoshop - Indesign</h2>
-                            <img src="img/portfolio/Cronos.png" alt="Cronos.jpg">
-                            <hr>
-                            <h2 class="section-heading">Coming soon!</h2>
+                            <h1>Who?</h1>
+                            <h2 class="section-heading">For as long as I can remember....</h2>
                             <!-- <p class="text-faded">In graphic design my passion is logo design. I love using simple shapes to create dimensions. </p> -->
                         </div>
                     </div>
@@ -72,28 +75,16 @@
             </div>
         </section>
 
-        <!-- <div class="my-slider">
-            <ul>
-
-                <li><img src="img/portfolio/OliveLogo.jpg"></li>
-                <li><img src="img/portfolio/TriangleAlt.jpg"></li>
-                <li><img src="img/portfolio/Cronos.png"></li>
-                <li><img src="img/portfolio/G1.png"></li>
-                <li><img src="img/portfolio/4.png"></li>
-                <li><img src="img/portfolio/G4.jpeg"></li>
-
-
-            </ul>
-        </div> -->
-
-        <!-- Bootstrap Core JavaScript -->
-        <script src="js/bootstrap.min.js"></script>
-        <!-- Plugin JavaScript -->
-        <script src="js/jquery.easing.min.js"></script>
-        <script src="js/jquery.fittext.js"></script>
-        <script src="js/wow.min.js"></script>
-        <!-- Custom Theme JavaScript -->
         <script src="js/creative.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script>
+    
+        $(".icon").on("click", function(){
+            $(this).toggleClass("open");
+        });
+        </script>
 </body>
 
 </html>
