@@ -470,6 +470,10 @@ footer .social h3 {
   width: 100%;
   max-width: 100%;
 }
+.employer-card .card-footer {
+  background-color: transparent;
+  border: none;
+}
 @media all and (max-width: 1198px) {
   .modal-title-contain {
     flex-direction: column-reverse;
@@ -521,9 +525,19 @@ footer .social h3 {
   }
 }
 @media all and (max-width: 767px) {
+  .employer-card .card-footer button.learn-more {
+    background: transparent;
+    text-align: right;
+    color: var(--dark-brown);
+    font-size: 28px;
+    border: none;
+  }
   body {
     display: block;
     width: 100%;
+  }
+  .card-body p {
+    font-weight: 200;
   }
   div.modal-fullscreen div.modal-body {
     padding: 2em;
@@ -573,6 +587,7 @@ footer .social h3 {
   }
   .Typewriter {
     margin-top: 8px;
+    font-weight: 900
   }
   .body-section {
     margin-top: 3.5rem;
@@ -621,7 +636,11 @@ footer .social h3 {
   }
   img.bigImage {
     width: 100%;
-    opacity: 0.4;
+    position: relative;
+    overflow: hidden;
+    height: 100px;
+    object-fit: cover;
+    object-position: bottom;
   }
   div.intro {
     /* margin-top: -60px; */
@@ -916,5 +935,6 @@ footer .social h3 {
     width: 90%;
     height: auto;
     padding: 15px;
+    max-width: 200px;
   }
 }
