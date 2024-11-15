@@ -9,8 +9,11 @@ function BrandExample() {
     <Navbar fixed="top" expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="#home">
-          <img src={myLogo} className='d-inline-block align-top desk' alt='ian logo'/>
-          <img src={myLogoSmall} className='d-inline-block align-top mobile' alt='ian logo'/>
+          <img src={myLogo} className='d-inline-block align-top' alt='ian logo'/>
+          {/* <div className='mobile-show'>
+            <img src={myLogoSmall} className='d-inline-block align-top mobile' alt='ian logo'/> 
+            <h4>Ian Narcisse</h4>
+          </div> */}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
