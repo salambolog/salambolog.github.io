@@ -7,7 +7,7 @@ import Employment from './Employment.jsx'
 import Qualify from './Qualify.jsx'
 import Footer from './Footer.jsx'
 import './App.css'
-import computerImage from './assets/images/logos/old-new.png'
+import computerImage from './assets/images/donut.png'
 import iceCreamImage from './assets/images/logos/ice-cream-solo.png'
 import myLogo from './assets/images/logos/ian-logo-white.png'
 

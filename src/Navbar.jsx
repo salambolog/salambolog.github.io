@@ -10,6 +10,7 @@ function BrandExample() {
       <Container>
         <Navbar.Brand href="#home">
           <img src={myLogo} className='d-inline-block align-top' alt='ian logo'/>
+
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
