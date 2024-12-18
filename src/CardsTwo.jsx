@@ -68,7 +68,7 @@ const Employers = () => {
   const employers = [
     {
         employer: "IMEG",
-        image: "src/assets/images/logos/imeg.webp",
+        image: "src/assets/images/imeg.webp",
         description: "Built, edited, designed, and maintained the front end of their current internal/external sites. Fixed slow load times on all platforms.",
         employerLink: "#",
         title: "Front End Dev",
@@ -76,7 +76,7 @@ const Employers = () => {
         projects: ["PharmaNutra", "Big A** Cabins", "Dolly Parton Stampede", "Aim for Wellbeing", "Cherokee Lodge Condos", "Cook's Pharmacy", "Palm Breeze Luxury RV Resort", "Lakeland Drugs"]
     }, {
         employer: "Sharecare",
-        image: "src/assets/images/logos/sharecare_small.svg",
+        image: "src/assets/images/sharecare_small.svg",
         description: "Built, edited, designed, and maintained the front end of their current internal external sites.",
         employerLink: "#",
         title: "UI Developer",
@@ -84,7 +84,7 @@ const Employers = () => {
         projects: ["Sharecare"]
     }, {
         employer: "CDC",
-        image: "src/assets/images/logos/cdc.png",
+        image: "src/assets/images/cdc.png",
         description: "Built, edited, designed, and maintained the front end of their current internal external sites.",
         employerLink: "#",
         title: "Front End Dev",
@@ -92,7 +92,7 @@ const Employers = () => {
         projects: ["CDC Stacks", "NOAA"]
     }, {
         employer: "WebMD",
-        image: "src/assets/images/logos/WebMD_small.svg",
+        image: "src/assets/images/WebMD_small.svg",
         description: "Using their CMS I created over 45 sites for sponsored content.",
         employerLink: "#",
         title: "UI Developer",
@@ -100,7 +100,7 @@ const Employers = () => {
         projects: ["WebMD", "Gerber"]
     }, {
         employer: "Capgemini",
-        image: "src/assets/images/logos/capgemini.svg",
+        image: "src/assets/images/capgemini.svg",
         description: "N.D.A. (Non-Disclosure Agreement).",
         employerLink: "#",
         title: "Front End Dev",
@@ -108,7 +108,7 @@ const Employers = () => {
         projects: ["Capgemini", "NDA"]
     }, {
         employer: "Sagepath Reply",
-        image: "src/assets/images/logos/sagepath.svg",
+        image: "src/assets/images/sagepath.svg",
         description: "With the help of the UX and UI teams I created sites for Shaw Flooring, Home Depot, World of Coca-Cola, Napa AutoCare, R.J. Reynolds, and Georgia Power.",
         employerLink: "#",
         title: "UI Developer",
@@ -118,36 +118,36 @@ const Employers = () => {
             {
                 projectName: "Shaw Flooring",
                 projectURL: "https://shawfloors.com/",
-                projectImage: "src/assets/images/logos/shaw.jpeg"
+                projectImage: "src/assets/images/shaw.jpeg"
             }, {
                 projectName: "Home Depot",
                 projectURL: "https://www.homedepot.com/",
-                projectImage: "src/assets/images/logos/THD_logo.jpg"
+                projectImage: "src/assets/images/THD_logo.jpg"
             }, {
                 projectName: "World of Coca-Cola",
                 projectURL: "https://www.worldofcoca-cola.com/",
-                projectImage: "src/assets/images/logos/Coke.png"
+                projectImage: "src/assets/images/Coke.png"
 
             }, {
                 projectName: "Napa AutoCare",
                 projectURL: "https://www.napaonline.com/en/auto-care",
-                projectImage: "src/assets/images/logos/NAPA.svg"
+                projectImage: "src/assets/images/NAPA.svg"
 
             }, {
                 projectName: "R.J. Reynolds",
                 projectURL: "https://rjrt.com/",
-                projectImage: "src/assets/images/logos/rjrt-logo.svg"
+                projectImage: "src/assets/images/rjrt-logo.svg"
 
             }, {
                 projectName: "Georgia Power",
                 projectURL: "https://www.georgiapower.com/",
-                projectImage: "src/assets/images/logos/gp.png"
+                projectImage: "src/assets/images/gp.png"
 
             }
         ]    
     }, {
         employer: "Turner NBATV",
-        image: "src/assets/images/logos/turner.png",
+        image: "src/assets/images/turner.png",
         description: "With VB.Net, HTML, CSS, Javascript, Razor, SQL,  and Adobe Creative Suites I created a live scoreboard app for Shaq.",
         employerLink: "#",
         title: "UI Software Developer",
@@ -155,7 +155,7 @@ const Employers = () => {
         projects: ["Swish"]
     }, {
         employer: "The Creative Group",
-        image: "src/assets/images/logos/creative.svg",
+        image: "src/assets/images/creative.svg",
         description: "My first foray into professional web development. By request I created 3 sites for local and international businesses.",
         employerLink: "#",
         title: "Frontend Developer/Designer",
@@ -165,30 +165,30 @@ const Employers = () => {
             {
                 projectName: "Shaw Flooring",
                 projectURL: "https://shawfloors.com/",
-                projectImage: "src/assets/images/logos/shaw.jpeg"
+                projectImage: "src/assets/images/shaw.jpeg"
             }, {
                 projectName: "Home Depot",
                 projectURL: "https://www.homedepot.com/",
-                projectImage: "src/assets/images/logos/THD_logo.jpg"
+                projectImage: "src/assets/images/THD_logo.jpg"
             }, {
                 projectName: "World of Coca-Cola",
                 projectURL: "https://www.worldofcoca-cola.com/",
-                projectImage: "src/assets/images/logos/Coke.png"
+                projectImage: "src/assets/images/Coke.png"
 
             }, {
                 projectName: "Napa AutoCare",
                 projectURL: "https://www.napaonline.com/en/auto-care",
-                projectImage: "src/assets/images/logos/NAPA.svg"
+                projectImage: "src/assets/images/NAPA.svg"
 
             }, {
                 projectName: "R.J. Reynolds",
                 projectURL: "https://rjrt.com/",
-                projectImage: "src/assets/images/logos/rjrt-logo.svg"
+                projectImage: "src/assets/images/rjrt-logo.svg"
 
             }, {
                 projectName: "Georgia Power",
                 projectURL: "https://www.georgiapower.com/",
-                projectImage: "src/assets/images/logos/gp.png"
+                projectImage: "src/assets/images/gp.png"
 
             }
         ]
