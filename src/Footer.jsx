@@ -6,9 +6,19 @@ function Footer() {
             <div className="social container">
                 <img />
                 <div className="social-links">
-                    <img />
-                    <img />
-                    <img />
+                    <ul>
+                        <li>Resume</li>
+                        <li>
+                            <a href='https://www.linkedin.com/in/iannarcissecousar/' target='_blank'>
+                                LinkedIN
+                            </a>        
+                        </li>
+                        <li>
+                            <a href='https://www.github.com/salambolog/' target='_blank'>    
+                                Github
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </footer>

@@ -32,7 +32,7 @@ function App() {
               </p>
               <div className='headline-contain'>
                 <p className='tagline'>
-                  From art school to a keyboard near you!
+                  Web developer with design skills
                 </p>
                 <button className='contact'>
                   Contact Me
@@ -41,9 +41,9 @@ function App() {
             </div>
           </div>
         </div>
-        <div className='imager'>
+        {/* <div className='imager'>
           <img className='bigImage' src={computerImage} />
-        </div>
+        </div> */}
         <div className='intro' id='who'>
           <p className="body-text">
             Hello, My name is Ian and I am a Frontend developer with 6 years of experience. 

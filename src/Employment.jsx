@@ -7,11 +7,11 @@ function Employment() {
             <div className="employment">
                 <Scroll />
             </div>
-            <div className="container">
-                <h2 className='position-title'>Previous Positions</h2>
-            </div>
-            <div className="card-container">
-                <CardsTwo />
+            <div id="employz">
+                <h2 className='position-title'>Work History</h2>
+                <div className="card-container">
+                    <CardsTwo />
+                </div>
             </div>
         </section>
     )
