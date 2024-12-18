@@ -885,6 +885,12 @@ footer .social h3 {
   .scroll-container {
     padding: 2rem 0 5rem;
   }
+  section.section h2.intro-employment {
+    letter-spacing: -1.47px;
+  }
+}
+
+@media all and (min-width: 992px) {
   .section .card-container {
     grid-template-columns: 1fr 1fr;
     grid-gap: 70px;
@@ -892,12 +898,6 @@ footer .social h3 {
     margin: 0 auto;
     display: grid;
   }
-  section.section h2.intro-employment {
-    letter-spacing: -1.47px;
-  }
-}
-
-@media all and (min-width: 992px) {
   .navbar-brand img.d-inline-block.mobile {
     width: 75px;
   }
