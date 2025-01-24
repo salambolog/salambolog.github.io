@@ -6,13 +6,13 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function BrandExample() {
   return (
-    <Navbar fixed="top" expand="lg" className="bg-body-tertiary">
+    <Navbar fixed="top" expand="lg" className="bg-body-tertiary animate__animated animate__fadeInDown">
       <Container>
         <Navbar.Brand href="#home">
           <img src={myLogo} className='d-inline-block align-top desk' alt='ian logo'/>
-          <img src={myLogoSmall} className='d-inline-block align-top mobile' alt='ian logo'/>
+          <img src={myLogoSmall} className='d-inline-block align-top mobile animate__animated animate__fadeInDown' alt='ian logo'/>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className='animate__animated animate__fadeInDown'/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#who">Who</Nav.Link>

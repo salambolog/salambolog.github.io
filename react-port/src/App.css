@@ -102,6 +102,7 @@ h2.position-title {
 .navbar-light .navbar-toggler {
   border: none;
   border-color: var(--dark-brown);
+  animation-delay: .5s;
 }
 button.contact {
   background: #342613;
@@ -110,6 +111,7 @@ button.contact {
   padding: 14px 20px;
   border-radius: 100px;
   font-size: 18px;
+  animation-delay: 1s;
 }
 .me-auto {
   text-align: center;
@@ -309,12 +311,13 @@ footer .social-links ul {
   display: flex;
   width: 100%;
   justify-content: center;
+  gap: 50px;
 }
 footer .social-links ul li {
   color: var(--khaki);
   list-style: none;
   display: flex;
-  width: 100%;
+  /* width: 100%; */
 }
 footer .social h3 {
   color: #fff;

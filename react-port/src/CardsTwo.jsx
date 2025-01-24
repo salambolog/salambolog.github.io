@@ -49,11 +49,16 @@ const EmployerCard = ({ employer, onSelect }) => {
                         </p>
                         <div className='projects'>
                             <div>
-                                {employer.projects.map(
-                                    project => 
-                                    <p> {project} </p>
-                                    )
-                                }
+                                {employer.projects && employer.projects.map((project, index) => (
+                                    <a
+                                        key={index}
+                                        href={employer.projURLs && employer.projURLs[index]}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        <p>{project}</p>
+                                    </a>
+                                ))}
                             </div>
                         </div>
                     </Modal.Body>
@@ -63,7 +68,7 @@ const EmployerCard = ({ employer, onSelect }) => {
 
     );
   };
-  
+
 const Employers = () => {
   const employers = [
     {
@@ -73,7 +78,8 @@ const Employers = () => {
         employerLink: "#",
         title: "Front End Dev",
         used: "HTML CSS Javascript Jquery VueJS Wordpress WP Engine Shopify",
-        projects: ["PharmaNutra", "Big A** Cabins", "Dolly Parton Stampede", "Aim for Wellbeing", "Cherokee Lodge Condos", "Cook's Pharmacy", "Palm Breeze Luxury RV Resort", "Lakeland Drugs"]
+        projURLs: ["https://pharmanutra-us.com/products/sideral-folic", "https://bigasscabins.com/", "https://dpstampede.com/", "https://aimforwellbeing.org/", "https://www.cherokeelodgecondos.com/", "https://cookspharmacy.com/", "https://palmbreezeresort.com/", "https://lakelanddrug.com/"],
+        projects: ["PharmaNutra", "Big A** Cabins", "Dolly Parton Stampede", "Aim for Wellbeing", "Cherokee Lodge Condos", "Cook's Pharmacy", "Palm Breeze Luxury RV Resort", "Lakeland Drugs"],
     }, {
         employer: "Sharecare",
         image: "src/assets/images/logos/sharecare_small.svg",
@@ -89,7 +95,8 @@ const Employers = () => {
         employerLink: "#",
         title: "Front End Dev",
         used: "HTML CSS Javascript Jquery JSP Bootstrap Eclipse",
-        projects: ["CDC Stacks", "NOAA"]
+        projURLs: ["www.cdc.gov", "https://stacks.cdc.gov/", "https://www.noaa.gov/"],
+        projects: ["CDC", "CDC Stacks", "NOAA"]
     }, {
         employer: "WebMD",
         image: "src/assets/images/logos/WebMD_small.svg",
@@ -97,7 +104,8 @@ const Employers = () => {
         employerLink: "#",
         title: "UI Developer",
         used: "HTML CSS SCSS Javascript Jquery NodeJS Pagebuilder Grunt Webpack",
-        projects: ["WebMD", "Gerber"]
+        projURLs: ["https://www.webmd.com/"],
+        projects: ["WebMD"]
     }, {
         employer: "Capgemini",
         image: "src/assets/images/logos/capgemini.svg",
@@ -105,6 +113,7 @@ const Employers = () => {
         employerLink: "#",
         title: "Front End Dev",
         used: "HTML CSS SCSS Javascript Jquery Cheerio.JS Moovweb",
+        projURLs: ["https://capgemini.com/"],
         projects: ["Capgemini", "NDA"]
     }, {
         employer: "Sagepath Reply",
@@ -113,38 +122,8 @@ const Employers = () => {
         employerLink: "#",
         title: "UI Developer",
         used: "AEM HTML SCSS Jquery NodeJS PHP Wordpress Visual Studio",
-        projects: ["Shaw Flooring", "Home Depot", "World of Coca-Cola", "Napa AutoCare", "R.J.", "Reynolds", "Georgia Power"],
-        projectObj: [
-            {
-                projectName: "Shaw Flooring",
-                projectURL: "https://shawfloors.com/",
-                projectImage: "src/assets/images/logos/shaw.jpeg"
-            }, {
-                projectName: "Home Depot",
-                projectURL: "https://www.homedepot.com/",
-                projectImage: "src/assets/images/logos/THD_logo.jpg"
-            }, {
-                projectName: "World of Coca-Cola",
-                projectURL: "https://www.worldofcoca-cola.com/",
-                projectImage: "src/assets/images/logos/Coke.png"
-
-            }, {
-                projectName: "Napa AutoCare",
-                projectURL: "https://www.napaonline.com/en/auto-care",
-                projectImage: "src/assets/images/logos/NAPA.svg"
-
-            }, {
-                projectName: "R.J. Reynolds",
-                projectURL: "https://rjrt.com/",
-                projectImage: "src/assets/images/logos/rjrt-logo.svg"
-
-            }, {
-                projectName: "Georgia Power",
-                projectURL: "https://www.georgiapower.com/",
-                projectImage: "src/assets/images/logos/gp.png"
-
-            }
-        ]    
+        projects: ["Shaw Flooring", "Home Depot", "World of Coca-Cola", "Napa AutoCare", "R.J. Reynolds", "Georgia Power"],
+        projURLs: ["https://shawfloors.com/","https://www.homedepot.com/", "https://www.worldofcoca-cola.com/", "https://www.napaonline.com/en/auto-care", "https://rjrt.com/", "https://www.georgiapower.com/"]
     }, {
         employer: "Turner NBATV",
         image: "src/assets/images/logos/turner.png",
@@ -152,6 +131,7 @@ const Employers = () => {
         employerLink: "#",
         title: "UI Software Developer",
         used: "VB.NET HTML CSS Jquery SQL Visual Studio",
+        projURLs: ["https://www.nba.com"],
         projects: ["Swish"]
     }, {
         employer: "The Creative Group",
@@ -160,38 +140,8 @@ const Employers = () => {
         employerLink: "#",
         title: "Frontend Developer/Designer",
         used: "HTML CSS Javascript Jquery Wix Squarespace",
-        projects: ["Bloomsberry Farms", "Revel Realty", "Sarah Winword"],
-        projectObj: [
-            {
-                projectName: "Shaw Flooring",
-                projectURL: "https://shawfloors.com/",
-                projectImage: "src/assets/images/logos/shaw.jpeg"
-            }, {
-                projectName: "Home Depot",
-                projectURL: "https://www.homedepot.com/",
-                projectImage: "src/assets/images/logos/THD_logo.jpg"
-            }, {
-                projectName: "World of Coca-Cola",
-                projectURL: "https://www.worldofcoca-cola.com/",
-                projectImage: "src/assets/images/logos/Coke.png"
-
-            }, {
-                projectName: "Napa AutoCare",
-                projectURL: "https://www.napaonline.com/en/auto-care",
-                projectImage: "src/assets/images/logos/NAPA.svg"
-
-            }, {
-                projectName: "R.J. Reynolds",
-                projectURL: "https://rjrt.com/",
-                projectImage: "src/assets/images/logos/rjrt-logo.svg"
-
-            }, {
-                projectName: "Georgia Power",
-                projectURL: "https://www.georgiapower.com/",
-                projectImage: "src/assets/images/logos/gp.png"
-
-            }
-        ]
+        projURLs: ["https://bloomsburyfarms.com/", "https://www.revel.company/", "https://sarahwinward.com/"],
+        projects: ["Bloomsberry Farms", "Revel Realty", "Sarah Winward"]
     }
   ];
 

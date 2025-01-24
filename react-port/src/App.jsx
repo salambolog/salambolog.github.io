@@ -7,7 +7,6 @@ import Employment from './Employment.jsx'
 import Qualify from './Qualify.jsx'
 import Footer from './Footer.jsx'
 import './App.css'
-import computerImage from './assets/images/logos/old-new.png'
 import iceCreamImage from './assets/images/logos/ice-cream-solo.png'
 import myLogo from './assets/images/logos/ian-logo-white.png'
 
@@ -16,12 +15,12 @@ function App() {
     <>
       <Navbar />
       <div className='body-section'>
-          <div className="mobile-brand">
-            <img src={myLogo} />
+          <div className="mobile-brand bg-body-tertiary animate__animated animate__fadeInDown">
+            <img src={myLogo} className='animate__animated animate__fadeInDown'/>
           </div>
         <div className='App'>
           <div className="container">
-             <div className='hero-contain'> 
+             <div className='hero-contain bg-body-tertiary animate__animated animate__fadeInDown'> 
               <p>I am
                 <TypeWriter options={{
                   strings: ['a web developer', 'an artist', 'a freelancer', 'a CSS Addict'],
@@ -34,7 +33,7 @@ function App() {
                 <p className='tagline'>
                   Web developer with design skills
                 </p>
-                <button className='contact'>
+                <button className='contact animate__animated animate__fadeInDown'>
                   Contact Me
                 </button>
               </div>
@@ -44,8 +43,8 @@ function App() {
         {/* <div className='imager'>
           <img className='bigImage' src={computerImage} />
         </div> */}
-        <div className='intro' id='who'>
-          <p className="body-text">
+        <div className='intro bg-body-tertiary' id='who'>
+          <p className="body-text animate__animated animate__fadeInLeft">
             Hello, My name is Ian and I am a Frontend developer with 6 years of experience. 
             <br/>
           </p>
