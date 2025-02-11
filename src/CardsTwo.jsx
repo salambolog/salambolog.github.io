@@ -145,7 +145,7 @@ const Employers = () => {
         projects: ["Swish"]
     }, {
         employer: "Creative Circle",
-        image: "src/assets/images/logos/creative.svg",
+        image: "dist/assets/images/logos/creative.svg",
         description: "My first foray into professional web development. By request I created 3 sites for local and international businesses.",
         details: ["Using HTML / CSS / Javascript / Jquery / Wix and Squarespace I crafted 3 sites for clients via Creative Circle.", "Used media queries to build out mobile responsiveness.", "Used Javascript to create button functionality."],
         employerLink: "#",
