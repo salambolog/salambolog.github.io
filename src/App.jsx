@@ -45,7 +45,7 @@ function App() {
         </div> */}
         <div className='intro bg-body-tertiary' id='who'>
           <p className="body-text animate__animated animate__fadeInLeft">
-            Hello, My name is Ian and I am a Frontend developer with 6 years of experience. 
+            Hello, my name is Ian and I am a Frontend developer with 6 years of experience. 
             <br/>
           </p>
         </div>
