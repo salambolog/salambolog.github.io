@@ -992,6 +992,9 @@ footer .social h3 {
   }
 }
 @media all and (max-width: 700px) {
+  div.intro#who {
+    margin-top: 90px;
+  }
   .new-section p {
     font-weight: 700;
     letter-spacing: 0.7px;
