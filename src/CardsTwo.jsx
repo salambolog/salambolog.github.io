@@ -75,7 +75,7 @@ const Employers = () => {
   const employers = [
     {
         employer: "IMEG",
-        image: "/src/assets/images/logos/imeg.webp",
+        image: "./assets/images/logos/imeg.webp",
         description: "Built, edited, designed, and maintained the front end of their current internal/external sites. Fixed slow load times on all platforms.",
         details: ["Created templates/sites via Figma using HTML / Pug / SCSS / Stylus / Vuejs / React/ PHP / Wordpress / Liquid / Shopify", "Created Vue/React components and functionality for all sites: including maps, dropdowns, carousels, buttons, “Rezemotion” api data and more." , "Optimized HTML/CSS/Stylus Code for speed to reduce FCP,LCP,TBT, and CLS using Lighthouse/Webpagetest.", "Fixed image optimization and graphics using Adobe Creative Suite to fix responsiveness and response time of several sites.", "Used Semrush to search for broken links and created backlinks."],
         employerLink: "#",
