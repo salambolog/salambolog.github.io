@@ -118,7 +118,7 @@ function Cards(props) {
             {
                 projectName: "Bloomsbury Farms",
                 projectURL: "https://bloomsburyfarms.com/",
-                projectImage: "src/assets/images/logos/bloomsbury.webp"
+                projectImage: "src/assets/images/logos/bloomsbury-mtTDLEpp.webp"
             }, 
             {
                 projectName: "Revel Realty",

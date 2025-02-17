@@ -308,6 +308,7 @@ footer {
   padding: 2rem;
 }
 footer .social-links ul {
+  color: var(--khaki);
   display: flex;
   width: 100%;
   justify-content: center;
@@ -318,6 +319,11 @@ footer .social-links ul li {
   list-style: none;
   display: flex;
   /* width: 100%; */
+}
+footer .social-links ul li a {
+  color: var(--khaki);
+  font-family: "Neue Kabel ExtraBold";
+  letter-spacing: 1px;
 }
 footer .social h3 {
   color: #fff;
@@ -1001,5 +1007,8 @@ footer .social h3 {
   }
   .navbar-light .navbar-toggler {
     padding-bottom: 0;
+  }
+  footer .social-links ul {
+    padding-left: 0;
   }
 }
