@@ -543,7 +543,7 @@ footer .social h3 {
   }
   nav.fixed-top {
     padding: 0 20px;
-    /* box-shadow: 0 48px 36px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
+    box-shadow: 0 48px 36px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   }
   .navbar-brand img.d-inline-block {
     height: 70px;
