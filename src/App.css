@@ -116,8 +116,10 @@ button.contact {
 .me-auto {
   text-align: center;
 }
-.navbar-light .navbar-nav .nav-link {
-  color: var(--dark-brown);
+.navbar-light .navbar-nav a.nav-link {
+  color: var(--khaki);
+  letter-spacing: 1.7px;
+  font-family: "Neue Kabel ExtraBold";
 }
 #root {
   width: 100%;
