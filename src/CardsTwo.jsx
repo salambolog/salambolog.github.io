@@ -99,7 +99,7 @@ const Employers = () => {
         employerLink: "#",
         title: "UI Developer",
         used: "HTML / CSS / Javascript / Jquery / PHP / Wordpress / WP Engine",
-        projURLs: ["www.sharecare.com"],
+        projURLs: ["https://www.sharecare.com"],
         projects: ["Sharecare"]
     }, {
         employer: "CDC",
@@ -109,7 +109,7 @@ const Employers = () => {
         employerLink: "#",
         title: "Front End Dev",
         used: "HTML / CSS / Javascript / Jquery / JSP / Bootstrap / Eclipse",
-        projURLs: ["www.cdc.gov", "https://stacks.cdc.gov/", "https://www.noaa.gov/"],
+        projURLs: ["https://www.cdc.gov", "https://stacks.cdc.gov/", "https://www.noaa.gov/"],
         projects: ["CDC", "CDC Stacks", "NOAA"]
     }, {
         employer: "WebMD",
