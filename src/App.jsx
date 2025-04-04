@@ -9,6 +9,7 @@ import Footer from './Footer.jsx'
 import './App.css'
 import iceCreamImage from './assets/images/logos/ice-cream-solo.png'
 import myLogo from './assets/images/logos/ian-logo-white.png'
+import $ from 'jquery';
 
 function App() {
   return (
@@ -64,5 +65,10 @@ function App() {
     </>
   )
 }
-
+// const el = document.querySelector('.navbar-light .navbar-nav a.nav-link');
+// if (el) {
+//   el.addEventListener('click', function(e) {
+//     document.querySelector('.navbar-collapse').classList.toggle('show');
+//   })
+// }
 export default App
