@@ -20,19 +20,18 @@ function App() {
             <img src={myLogo} className='animate__animated animate__fadeInDown'/>
           </div>
         <div className='App'>
+          <div class="lines">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
           <div className="container">
              <div className='hero-contain bg-body-tertiary animate__animated animate__fadeInDown'> 
-              <p>I am
-                <TypeWriter options={{
-                  strings: ['a web developer', 'an artist', 'a freelancer', 'a CSS Addict'],
-                  autoStart: true,
-                  loop: true,
-                  cursor: '_',
-                }} />
+              <p>I am a web developer with more than 7 years experience
               </p>
               <div className='headline-contain'>
                 <p className='tagline'>
-                  Web developer with design skills
+                  I build beautiful sites quickly and efficiently
                 </p>
                 <button className='contact animate__animated animate__fadeInDown'>
                   Contact Me

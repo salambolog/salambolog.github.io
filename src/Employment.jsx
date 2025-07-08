@@ -8,8 +8,8 @@ function Employment() {
                 <Scroll />
             </div>
             <div id="employz">
-                <h2 className='position-title'>Work History</h2>
                 <div className="card-container">
+                    <h2 className='position-title'>Work History</h2>
                     <CardsTwo />
                 </div>
             </div>

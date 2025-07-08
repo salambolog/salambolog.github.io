@@ -15,7 +15,7 @@ const EmployerCard = ({ employer, onSelect }) => {
       setModal(!modal);
     };
     return (
-        <div>
+        <div className="turboCard">
             <div className="employer-card card" onClick={(e) => { e.stopPropagation(); toggleModal() }}>
                 <div className="logo-section">
                     <p className="logo-text">
