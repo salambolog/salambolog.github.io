@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function BrandExample() {
   return (
-    <Navbar fixed="top" expand="lg" className="bg-body-tertiary animate__animated animate__fadeInDown">
+    <Navbar fixed="top" id="navbar" expand="lg" className="bg-body-tertiary animate__animated animate__fadeInDown">
       <Container>
         <Navbar.Brand href="#home">
           <img src={myLogoSmall} className='d-inline-block align-top mobile animate__animated animate__fadeInDown' alt='ian logo'/>
@@ -24,5 +24,16 @@ function BrandExample() {
     </Navbar>
   );
 }
+
+window.addEventListener('scroll', function () {
+  const nav = document.getElementById('navbar');
+  if (document.documentElement.scrollTop || document.body.scrollTop > 200) {
+    nav.classList.add('nav-colored');
+    nav.classList.remove('nav-transparent');
+  } else {
+    nav.classList.add('nav-transparent');
+    nav.classList.remove('nav-colored');
+  }
+});
 
 export default BrandExample;

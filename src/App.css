@@ -33,9 +33,18 @@ footer[fixed="bottom"] {
 .btn-primary {
   border: none;
 }
-/* nav.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light.fixed-top {
-  background-color: var(--warm-brown);
-} */
+nav.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light.fixed-top.nav-colored {
+  transition: background-image 0.5s ease-in-out;
+}
+.nav-transparent {
+  background-color: transparent;
+}
+nav.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light.fixed-top.nav-colored {
+  background-image: linear-gradient(to right, var(--warm-brown) 0%, #AA5228 50%, rgba(255,255,255,0.1) 100%);
+}
+.navbar-collapse {
+  background-image: linear-gradient(to right, var(--warm-brown) 0%, #AA5228 80%, rgba(255,255,255,0.1) 100%);
+}
 nav.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light.fixed-top
   p.site-title {
   display: block;
@@ -734,10 +743,6 @@ div.Typewriter {
   .modal-brand {
     max-width: 180px;
   }
-  /* nav.fixed-top {
-    padding: 0 20px;
-    box-shadow: 0 48px 36px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  } */
   .navbar-brand img.d-inline-block {
     height: 56px;
     object-fit: cover;
@@ -866,7 +871,7 @@ div.Typewriter {
     background: var(--warm-brown);
   }
   .body-section .App {
-    margin: 6rem auto 0;
+    margin: 8rem auto 0;
     position: relative;
     z-index: 6;
     height: auto;
@@ -1081,7 +1086,9 @@ div.Typewriter {
 }
 
 @media all and (min-width: 992px) {
-  
+  .navbar-expand-lg .navbar-collapse {
+    background: transparent;
+  }
   nav.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light.fixed-top p.site-title {
     font-size: 24px;
   }
