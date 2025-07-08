@@ -84,7 +84,7 @@ const Employers = () => {
     {
         employer: "IMEG",
         image: Imeg,
-        description: "Built, edited, designed, and maintained the front end of their current internal/external sites. Fixed slow load times on all platforms.",
+        description: "Built, edited, designed, and maintained the front end of their current sites. Fixed slow load times on all platforms.",
         details: ["Created templates/sites via Figma using HTML / Pug / SCSS / Stylus / Vuejs / React/ PHP / Wordpress / Liquid / Shopify", "Created Vue/React components and functionality for all sites: including maps, dropdowns, carousels, buttons, “Rezemotion” api data and more." , "Optimized HTML/CSS/Stylus Code for speed to reduce FCP,LCP,TBT, and CLS using Lighthouse/Webpagetest.", "Fixed image optimization and graphics using Adobe Creative Suite to fix responsiveness and response time of several sites.", "Used Semrush to search for broken links and created backlinks."],
         employerLink: "#",
         title: "Front End Dev",
@@ -144,7 +144,7 @@ const Employers = () => {
     }, {
         employer: "Turner NBATV",
         image: Turner,
-        description: "With VB.Net, HTML, CSS, Javascript, Razor, SQL,  and Adobe Creative Suites I created a live scoreboard app for Shaq.",
+        description: "With VB.Net, HTML, CSS, JS, Razor, SQL,  and Adobe Creative Suites I created a live scoreboard app for Shaq.",
         details: ["Used Visual Basic to assist in builing, editing, and maintaing the SWISH application.", "Created and designed user friendly websites and printed materials for the SWISH application.", "Monitored the CPU usage and statuses for SWISH overnight", "Built and designed a tablet based score board application for Shaquille o'Neal to use on air."],
         employerLink: "#",
         title: "UI Software Developer",

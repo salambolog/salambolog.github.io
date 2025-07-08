@@ -1189,6 +1189,15 @@ div.Typewriter {
     padding-left: 0;
   }
 }
+@media all and (max-width: 400px) {
+  section #employz .turboCard .card {
+    height: 470px;
+  }
+  .card-body p { 
+    margin-bottom: 0;
+  }
+
+}
 @keyframes spin-round {
 	 from {
 		 transform: translateX(0);
