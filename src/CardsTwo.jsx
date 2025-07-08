@@ -134,7 +134,7 @@ const Employers = () => {
     }, {
         employer: "Sagepath Reply",
         image: Sagepath,
-        description: "With the help of the UX and UI teams I created sites for Shaw Flooring, Home Depot, World of Coca-Cola, Napa AutoCare, R.J. Reynolds, and Georgia Power.",
+        description: "Alongside the UX and UI teams I created sites for Shaw Flooring, Home Depot, World of Coca-Cola, Napa AutoCare, R.J. Reynolds, and Georgia Power.",
         details: ["Created templates/sites via Sketch/Adobe XD using HTML / React / SCSS / Javascript / Jquery / PHP / Wordpress / Instapage", "Debugged several pages to ensure usability. Used competitive keywords to optimize search ranking.", "Working with our SEO specialist, changed headlines, anchor tags, class names and page position to push user experience on all sites."],
         employerLink: "#",
         title: "UI Developer",
