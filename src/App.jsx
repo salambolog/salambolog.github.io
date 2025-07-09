@@ -27,7 +27,7 @@ function App() {
           </div>
           <div className="container">
              <div className='hero-contain bg-body-tertiary animate__animated animate__fadeInDown'> 
-              <p>I am a web developer with more than 7 years experience
+              <p>i am a web developer with more than 7 years experience
               </p>
               <div className='headline-contain'>
                 <p className='tagline'>
