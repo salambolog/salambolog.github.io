@@ -33,8 +33,8 @@ function App() {
                 <p className='tagline'>
                   I build beautiful sites quickly and efficiently
                 </p>
-                <button className='contact animate__animated animate__fadeInDown'>
-                  Contact Me
+                <button className='contact animate__animated animate__fadeInDown learn-more btn btn-primary'>
+                  <a href='mailto:salambolog@gmail.com'>Contact Me</a>
                 </button>
               </div>
             </div>

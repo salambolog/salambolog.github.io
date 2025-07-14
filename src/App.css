@@ -27,6 +27,20 @@ body {
   background-color: var(--warm-brown);
   width: 100%;
 }
+button.contact {
+  border-radius: 0;
+  bottom: 0;
+  left: 0;
+  font-family: "Neue Kabel ExtraBold";
+  font-size: 1.7rem;
+  color: var(--warm-brown);
+  background-color: var(--warm-brown);
+  border-radius: 100px;
+  padding: 8px 16px;
+}
+button.contact a {
+  color: #fff;
+}
 footer[fixed="bottom"] {
   background: #342613;
 }
@@ -125,7 +139,7 @@ h2.position-title {
   animation-delay: 0.5s;
   box-shadow: none;
 }
-button.contact {
+/* button.contact {
   background: #342613;
   color: var(--khaki);
   font-weight: 500;
@@ -133,7 +147,7 @@ button.contact {
   border-radius: 100px;
   font-size: 18px;
   animation-delay: 1s;
-}
+} */
 .me-auto {
   text-align: center;
 }
