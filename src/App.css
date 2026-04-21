@@ -167,9 +167,16 @@ h2.position-title {
 .navbar-nav {
   text-align: center;
 }
-.navbar-light .navbar-nav a.nav-link {
+.navbar-light .navbar-nav a.nav-link, .navbar-light .navbar-nav a.nav-link:active {
   letter-spacing: 1.7px;
   font-family: "Neue Kabel ExtraBold";
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ED2B26;
+}
+.navbar-light div.navbar-nav a.nav-link {
+  color: #fff;
 }
 #root {
   width: 100%;
@@ -1256,12 +1263,17 @@ div.Typewriter {
     padding-left: 0;
   }
 }
-@media all and (max-width: 400px) {
+@media all and (max-width: 650px) {
   section #employz .turboCard .card {
     height: 470px;
+    padding: 40px 20px;
   }
   .card-body p { 
     margin-bottom: 0;
+    padding: 0;
+  }
+  .logo-text {
+    padding: 0 !important;
   }
 
 }

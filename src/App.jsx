@@ -19,7 +19,7 @@ function App() {
     <>
       <Navbar />
       <div className='body-section'>
-          <img src={redFlower} className='redFlower' alt="red flower" />
+          <img src={redFlower} className='redFlower' alt="red flower" loading='eager'/>
           <div className="mobile-brand bg-body-tertiary animate__animated animate__fadeInDown">
             <img src={myLogo} className='animate__animated animate__fadeInDown'/>
           </div>
