@@ -14,7 +14,8 @@ function BrandExample() {
         <p className='site-title'>Narcisse-Cousar</p>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className='animate__animated animate__fadeInDown'/>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="now-nav">
+            <Nav.Link className="now" href="#now">Now</Nav.Link>
             <Nav.Link href="#who" data-bs-dismiss="offcanvas">Who</Nav.Link>
             <Nav.Link href="#where">Where</Nav.Link>
             <Nav.Link href="#qualify">What</Nav.Link>

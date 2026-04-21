@@ -8,6 +8,7 @@ import Cap from "./assets/images/capgemini.svg";
 import Sagepath from "./assets/images/sagepath.svg";
 import Turner from "./assets/images/turner.png";
 import Circle from "./assets/images/creative.svg";
+import Biband from "./assets/images/logos/biband.png";
 
 const EmployerCard = ({ employer, onSelect }) => {
     const [modal, setModal] = useState(false);
@@ -82,6 +83,16 @@ const EmployerCard = ({ employer, onSelect }) => {
 const Employers = () => {
   const employers = [
     {
+        employer: "Biband Dental Matrix",
+        image: Biband,
+        description: "Designed, built, and edited Systeme.io to WordPress conversion sites.",
+        details: ["HTML/CSS/Javascript/WordPress/PHP/Zapier/Mailerlite"],
+        employerLink: "#",
+        title: "Freelance WordPress Developer (Upwork)",
+        used: "HTML / CSS / Javascript / WordPress / PHP / Zapier / Mailerlite",
+        projURLs: ["http://bibandmatrix.com/"],
+        projects: ["Biband Dental Matrix"],
+    }, {
         employer: "IMEG",
         image: Imeg,
         description: "Built, edited, designed, and maintained the front end of their current sites. Fixed slow load times on all platforms.",
@@ -134,7 +145,7 @@ const Employers = () => {
     }, {
         employer: "Sagepath Reply",
         image: Sagepath,
-        description: "Alongside the UX and UI teams I created sites for Shaw Flooring, Home Depot, World of Coca-Cola, Napa AutoCare, R.J. Reynolds, and Georgia Power.",
+        description: "Alongside the UX and UI teams I created sites for Shaw Flooring, Home Depot, World of Coca-Cola, Napa AutoCare, and more.",
         details: ["Created templates/sites via Sketch/Adobe XD using HTML / React / SCSS / Javascript / Jquery / PHP / Wordpress / Instapage", "Debugged several pages to ensure usability. Used competitive keywords to optimize search ranking.", "Working with our SEO specialist, changed headlines, anchor tags, class names and page position to push user experience on all sites."],
         employerLink: "#",
         title: "UI Developer",
@@ -154,7 +165,7 @@ const Employers = () => {
     }, {
         employer: "Creative Circle",
         image: Circle,
-        description: "My first foray into professional web development. By request I created 3 sites for local and international businesses.",
+        description: "My first foray into professional web development. By request I created 3 sites for local businesses.",
         details: ["Using HTML / CSS / Javascript / Jquery / Wix and Squarespace I crafted 3 sites for clients via Creative Circle.", "Used media queries to build out mobile responsiveness.", "Used Javascript to create button functionality."],
         employerLink: "#",
         title: "Frontend Developer/Designer",

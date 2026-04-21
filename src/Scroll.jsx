@@ -14,12 +14,16 @@ import nba from './assets/images/logos/nba.png'
 import rj from './assets/images/logos/rjrt-logo.svg'
 import shaw from './assets/images/logos/shaw.jpeg'
 import hd from './assets/images/logos/THD_logo.jpg'
+import biband from './assets/images/logos/biband-logo.png'
 
 
 function Scroll() {
     return (
         <div className="scroll-container">
             <div className="carousel-primary">
+                <span>
+                    <img src={biband} alt="biband logo" />
+                </span>
                 <span>
                     <img src={imeg} alt="imeg logo" />
                 </span>

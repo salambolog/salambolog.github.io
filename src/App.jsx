@@ -9,6 +9,9 @@ import Footer from './Footer.jsx'
 import './App.css'
 import iceCreamImage from './assets/images/logos/ice-cream-solo.png'
 import myLogo from './assets/images/logos/ian-logo-white.png'
+import bibandLogo from "./assets/images/logos/new-biband-logo.png"
+import redFlower from "./assets/images/new-red-flower.png"
+import wreath from "./assets/images/new-container-flowers.webp"
 import $ from 'jquery';
 
 function App() {
@@ -16,18 +19,19 @@ function App() {
     <>
       <Navbar />
       <div className='body-section'>
+          <img src={redFlower} className='redFlower' alt="red flower" />
           <div className="mobile-brand bg-body-tertiary animate__animated animate__fadeInDown">
             <img src={myLogo} className='animate__animated animate__fadeInDown'/>
           </div>
         <div className='App'>
-          <div class="lines">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
+          <div className="lines">
+            <div className="line"></div>
+            <div className="line"></div>
+            <div className="line"></div>
           </div>
           <div className="container">
              <div className='hero-contain bg-body-tertiary animate__animated animate__fadeInDown'> 
-              <p>i am a web developer with more than 7 years experience
+              <p>i am a web developer with more than 8 years experience
               </p>
               <div className='headline-contain'>
                 <p className='tagline'>
@@ -40,14 +44,23 @@ function App() {
             </div>
           </div>
         </div>
-        {/* <div className='imager'>
-          <img className='bigImage' src={computerImage} />
-        </div> */}
         <div className='intro bg-body-tertiary' id='who'>
           <p className="body-text animate__animated animate__fadeInLeft">
-            Hello, my name is Ian and I am a Frontend developer with 6 years of experience. 
+            My name is Ian and I have several years of experience with an array of skills. 
             <br/>
           </p>
+        </div>
+      </div>
+      <div id='now'>
+        <div className='container'>
+          <div className="flower-container">
+            <img src={wreath} className='wreath-image' alt="wedding invitation" />
+          </div>
+          <div className='bibander'>
+            <h2>Current Role:</h2>
+            <h2>Biband Dental Matrix</h2>
+            <img src={bibandLogo} className='current-image' />
+          </div>
         </div>
       </div>
       <Employment />
@@ -64,10 +77,4 @@ function App() {
     </>
   )
 }
-// const el = document.querySelector('.navbar-light .navbar-nav a.nav-link');
-// if (el) {
-//   el.addEventListener('click', function(e) {
-//     document.querySelector('.navbar-collapse').classList.toggle('show');
-//   })
-// }
 export default App
