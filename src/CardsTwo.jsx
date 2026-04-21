@@ -86,7 +86,7 @@ const Employers = () => {
         employer: "Biband Dental Matrix",
         image: Biband,
         description: "Designed, built, and edited Systeme.io to WordPress conversion sites.",
-        details: ["HTML/CSS/Javascript/WordPress/PHP/Zapier/Mailerlite"],
+        details: ["Designed, built, edited, and maintained WordPress sites using HTML/CSS/JavaScript/PHP for speed to reduce FCP, LCP, TBT, and CLS using Lighthouse/WebPageTest."],
         employerLink: "#",
         title: "Freelance WordPress Developer (Upwork)",
         used: "HTML / CSS / Javascript / WordPress / PHP / Zapier / Mailerlite",
